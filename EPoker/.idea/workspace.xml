@@ -10,163 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e77eddc-f8f9-437a-bd6f-d214c164b1b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/nimeshkadecha/e_poker/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/biller_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/date.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/duplicate.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_drive_file_rename_outline_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_home_work_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_password_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_storage_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_money.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_numbers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_phone.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/message.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/remove.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-land/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/nimeshkadecha/e_poker/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/androidTest/java/com/example/epokerproject/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/debug/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/AdvocateListActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/CaseListActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/DashboardActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/LoginActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/RegisterActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/activity/SplashActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/adapter/AdvocateAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/adapter/CaseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/interfaces/ItemClickListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/java/com/example/epokerproject/utils/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable-v24/toolbarlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/ic_advocate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/ic_advocate_big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/ic_baseline_supervisor_account_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/ic_case_study.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/drawable/sign.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_advocate_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_case_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/item_advocate.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/layout/item_case.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/raw/splash.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/app/src/test/java/com/example/epokerproject/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EpokerProject/EpokerProject/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +62,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
