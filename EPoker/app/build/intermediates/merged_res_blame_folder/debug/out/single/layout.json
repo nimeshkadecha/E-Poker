@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_register.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_main.xml"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_register.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_case_list.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_case_list.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/item_case.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/item_case.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/item_advocate.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/item_advocate.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_advocate_list.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_advocate_list.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_splash.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-mergeDebugResources-35:/layout/activity_dashboard.xml",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_dashboard.xml"
+    }
+]
