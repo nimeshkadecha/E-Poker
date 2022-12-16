@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "87178646522",
+    "project_id": "e-poker",
+    "storage_bucket": "e-poker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87178646522:android:7146318d2063d325d30a43",
+        "android_client_info": {
+          "package_name": "com.example.epokerproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87178646522-mgjc8k6095hktkispeibi7l2o3jbgl90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epokerproject",
+            "certificate_hash": "4fa22fe353d071a6c7049d44928996aae4e25be6"
+          }
+        },
+        {
+          "client_id": "87178646522-ifsbc6blp3mm5tnvci9nijhccjv2luke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMsbz4YA0kpOg0lsyuoxXbnIv3LNsg9Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87178646522-ifsbc6blp3mm5tnvci9nijhccjv2luke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
