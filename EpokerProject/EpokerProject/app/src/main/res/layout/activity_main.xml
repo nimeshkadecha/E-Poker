@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select User Type"
+        android:textColor="#000000"
+        android:background="#EBF3FF"
+        android:textSize="18sp"
+        android:padding="18dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toolbarlogo"
+        android:layout_marginTop="40dp"/>
+
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:drawableLeft="@drawable/ic_baseline_supervisor_account_24"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        style="?attr/materialButtonOutlinedStyle"
+        />
+
+    <Button
+        android:id="@+id/btnAdvocate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advocate Login"
+        android:drawableLeft="@drawable/ic_advocate"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        style="?attr/materialButtonOutlinedStyle"
+        />
+
+    <Button
+        android:id="@+id/btnClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Client Login"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:textSize="16sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        style="?attr/materialButtonOutlinedStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
