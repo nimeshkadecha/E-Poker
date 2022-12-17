@@ -10,7 +10,7 @@
     >
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:orientation="vertical">
@@ -115,6 +115,23 @@
 
             </TextView>
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="20dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/approvebtn"
+            android:text="Approve"
+
+            />
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

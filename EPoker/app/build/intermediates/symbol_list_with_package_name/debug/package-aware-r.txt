@@ -2840,6 +2840,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id approvebtn
 id arc
 id asConfigured
 id async
@@ -2863,7 +2864,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
+id btnCase
 id buttonPanel
 id cache_measures
 id callMeasure

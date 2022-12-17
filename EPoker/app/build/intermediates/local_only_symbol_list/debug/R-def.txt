@@ -37,7 +37,8 @@ id Lregister
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
-id button
+id approvebtn
+id btnCase
 id cemail
 id clic
 id cname

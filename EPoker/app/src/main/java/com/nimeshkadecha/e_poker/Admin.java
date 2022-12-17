@@ -74,10 +74,10 @@ public class Admin extends AppCompatActivity {
                                 email.add(document.getString("Email"));
                                 number.add(document.getString("Mobile"));
                                 lic.add(document.getString("Licence"));
-                                Log.d("ENimesh", String.valueOf(name));
-                                Log.d("ENimesh", String.valueOf(email));
-                                Log.d("ENimesh", String.valueOf(number));
-                                Log.d("ENimesh", String.valueOf(lic));
+//                                Log.d("ENimesh", String.valueOf(name));
+//                                Log.d("ENimesh", String.valueOf(email));
+//                                Log.d("ENimesh", String.valueOf(number));
+//                                Log.d("ENimesh", String.valueOf(lic));
                             }
                             adapter.notifyDataSetChanged();
                         }else{
