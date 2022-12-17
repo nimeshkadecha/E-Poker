@@ -23,28 +23,31 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView AlreadyUserTV;
+
+  @NonNull
   public final ConstraintLayout constraintLayout2;
-
-  @NonNull
-  public final TextInputEditText contactNumber;
-
-  @NonNull
-  public final TextInputEditText email;
-
-  @NonNull
-  public final TextInputEditText gst;
 
   @NonNull
   public final TextView head;
 
   @NonNull
-  public final TextInputEditText password;
-
-  @NonNull
   public final TextInputEditText rName;
 
   @NonNull
+  public final TextInputEditText rcontactNumber;
+
+  @NonNull
   public final Button register;
+
+  @NonNull
+  public final TextInputEditText remail;
+
+  @NonNull
+  public final TextInputEditText rlic;
+
+  @NonNull
+  public final TextInputEditText rpassword;
 
   @NonNull
   public final TextInputLayout textInputLayout4;
@@ -61,29 +64,35 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final TextInputLayout textInputLayoutPassword;
 
+  @NonNull
+  public final TextView textView;
+
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout constraintLayout2, @NonNull TextInputEditText contactNumber,
-      @NonNull TextInputEditText email, @NonNull TextInputEditText gst, @NonNull TextView head,
-      @NonNull TextInputEditText password, @NonNull TextInputEditText rName,
-      @NonNull Button register, @NonNull TextInputLayout textInputLayout4,
+      @NonNull TextView AlreadyUserTV, @NonNull ConstraintLayout constraintLayout2,
+      @NonNull TextView head, @NonNull TextInputEditText rName,
+      @NonNull TextInputEditText rcontactNumber, @NonNull Button register,
+      @NonNull TextInputEditText remail, @NonNull TextInputEditText rlic,
+      @NonNull TextInputEditText rpassword, @NonNull TextInputLayout textInputLayout4,
       @NonNull TextInputLayout textInputLayoutEmail,
       @NonNull TextInputLayout textInputLayoutGSTNumber,
       @NonNull TextInputLayout textInputLayoutName,
-      @NonNull TextInputLayout textInputLayoutPassword) {
+      @NonNull TextInputLayout textInputLayoutPassword, @NonNull TextView textView) {
     this.rootView = rootView;
+    this.AlreadyUserTV = AlreadyUserTV;
     this.constraintLayout2 = constraintLayout2;
-    this.contactNumber = contactNumber;
-    this.email = email;
-    this.gst = gst;
     this.head = head;
-    this.password = password;
     this.rName = rName;
+    this.rcontactNumber = rcontactNumber;
     this.register = register;
+    this.remail = remail;
+    this.rlic = rlic;
+    this.rpassword = rpassword;
     this.textInputLayout4 = textInputLayout4;
     this.textInputLayoutEmail = textInputLayoutEmail;
     this.textInputLayoutGSTNumber = textInputLayoutGSTNumber;
     this.textInputLayoutName = textInputLayoutName;
     this.textInputLayoutPassword = textInputLayoutPassword;
+    this.textView = textView;
   }
 
   @Override
@@ -113,27 +122,15 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.AlreadyUserTV;
+      TextView AlreadyUserTV = ViewBindings.findChildViewById(rootView, id);
+      if (AlreadyUserTV == null) {
+        break missingId;
+      }
+
       id = R.id.constraintLayout2;
       ConstraintLayout constraintLayout2 = ViewBindings.findChildViewById(rootView, id);
       if (constraintLayout2 == null) {
-        break missingId;
-      }
-
-      id = R.id.contactNumber;
-      TextInputEditText contactNumber = ViewBindings.findChildViewById(rootView, id);
-      if (contactNumber == null) {
-        break missingId;
-      }
-
-      id = R.id.email;
-      TextInputEditText email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
-        break missingId;
-      }
-
-      id = R.id.gst;
-      TextInputEditText gst = ViewBindings.findChildViewById(rootView, id);
-      if (gst == null) {
         break missingId;
       }
 
@@ -143,21 +140,39 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.password;
-      TextInputEditText password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
-        break missingId;
-      }
-
       id = R.id.rName;
       TextInputEditText rName = ViewBindings.findChildViewById(rootView, id);
       if (rName == null) {
         break missingId;
       }
 
+      id = R.id.rcontactNumber;
+      TextInputEditText rcontactNumber = ViewBindings.findChildViewById(rootView, id);
+      if (rcontactNumber == null) {
+        break missingId;
+      }
+
       id = R.id.register;
       Button register = ViewBindings.findChildViewById(rootView, id);
       if (register == null) {
+        break missingId;
+      }
+
+      id = R.id.remail;
+      TextInputEditText remail = ViewBindings.findChildViewById(rootView, id);
+      if (remail == null) {
+        break missingId;
+      }
+
+      id = R.id.rlic;
+      TextInputEditText rlic = ViewBindings.findChildViewById(rootView, id);
+      if (rlic == null) {
+        break missingId;
+      }
+
+      id = R.id.rpassword;
+      TextInputEditText rpassword = ViewBindings.findChildViewById(rootView, id);
+      if (rpassword == null) {
         break missingId;
       }
 
@@ -191,10 +206,16 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, constraintLayout2,
-          contactNumber, email, gst, head, password, rName, register, textInputLayout4,
-          textInputLayoutEmail, textInputLayoutGSTNumber, textInputLayoutName,
-          textInputLayoutPassword);
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, AlreadyUserTV,
+          constraintLayout2, head, rName, rcontactNumber, register, remail, rlic, rpassword,
+          textInputLayout4, textInputLayoutEmail, textInputLayoutGSTNumber, textInputLayoutName,
+          textInputLayoutPassword, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

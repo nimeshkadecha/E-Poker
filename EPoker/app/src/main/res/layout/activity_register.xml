@@ -152,12 +152,33 @@
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="register"
+        android:layout_marginTop="50dp"
         android:text="@string/register"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
         tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/register"
+        app:layout_constraintStart_toStartOf="@+id/register"
+        app:layout_constraintTop_toBottomOf="@+id/register" />
+
+    <TextView
+        android:id="@+id/AlreadyUserTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Already a User? Login Here"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

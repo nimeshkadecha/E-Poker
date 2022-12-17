@@ -1692,7 +1692,7 @@
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
     <string name="Biller">Biller_OTP</string>
-    <string name="Lic_number">Licence Number</string>
+    <string name="Lic_number">Licence Number:</string>
     <string name="Menulogo">menu</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -1761,7 +1761,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="contact_number">Contact Number</string>
+    <string name="contact_number">Contact Number:</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="create_pdf">Create PDF</string>
     <string name="customer_information">Customer Information</string>
@@ -1801,7 +1801,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
-    <string name="item_name">Item Name</string>
+    <string name="item_name">Name</string>
     <string name="item_price">Item Price:</string>
     <string name="item_quantity">Item quantity:</string>
     <string name="item_view_role_description">Tab</string>

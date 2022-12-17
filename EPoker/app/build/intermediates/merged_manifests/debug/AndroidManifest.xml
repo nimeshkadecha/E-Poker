@@ -25,6 +25,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.EPoker" >
         <activity
+            android:name="com.nimeshkadecha.e_poker.advocate"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.nimeshkadecha.e_poker.Admin"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.nimeshkadecha.e_poker.Register"
             android:exported="false" >
             <meta-data
@@ -90,6 +104,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 

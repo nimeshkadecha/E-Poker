@@ -118,6 +118,7 @@
         android:id="@+id/Lregister"
         android:text="New User? Register Here"
         android:textSize="20sp"
+        android:textColor="#0000ff"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"

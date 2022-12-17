@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="Biller">Biller_OTP</string>
-    <string name="Lic_number">Licence Number</string>
+    <string name="Lic_number">Licence Number:</string>
     <string name="Menulogo">menu</string>
     <string name="about">About</string>
     <string name="add_item">Add Item</string>
@@ -21,7 +21,7 @@
     <string name="backup">Backup</string>
     <string name="backup_to_cloud">Backup to Cloud</string>
     <string name="biller">Biller</string>
-    <string name="contact_number">Contact Number</string>
+    <string name="contact_number">Contact Number:</string>
     <string name="create_pdf">Create PDF</string>
     <string name="customer_information">Customer Information</string>
     <string name="customer_name">Customer Name</string>
@@ -48,7 +48,7 @@
     <string name="google_storage_bucket" translatable="false">e-pokaar-test.appspot.com</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="item_name">Item Name</string>
+    <string name="item_name">Name</string>
     <string name="item_price">Item Price:</string>
     <string name="item_quantity">Item quantity:</string>
     <string name="login">Login</string>
