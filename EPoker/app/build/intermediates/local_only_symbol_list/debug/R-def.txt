@@ -38,6 +38,7 @@ id Lregister
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id addCBtn
 id approvebtn
 id btnCase
 id cemail
@@ -64,6 +65,7 @@ id textInputLayoutName
 id textInputLayoutPassword
 id textView
 id textView4
+layout activity_addcase
 layout activity_admin
 layout activity_admin_case
 layout activity_advocate

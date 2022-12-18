@@ -13,6 +13,13 @@
         android:theme="@style/Theme.EPoker"
         tools:targetApi="31">
         <activity
+            android:name=".Addcase"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".AdminCase"
             android:exported="false">
             <meta-data

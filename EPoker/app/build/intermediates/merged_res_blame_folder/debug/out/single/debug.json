@@ -28,10 +28,6 @@
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_refresh_24.xml"
     },
     {
-        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/layout_activity_admin.xml.flat",
-        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_admin.xml"
-    },
-    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\navigation_nav_graph.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\navigation\\nav_graph.xml"
     },
@@ -66,6 +62,10 @@
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_addcase.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_addcase.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -162,6 +162,10 @@
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_storage_24.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_storage_24.xml"
+    },
+    {
+        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/layout_activity_addcase.xml.flat",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_addcase.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",

@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String emails = email.getText().toString();
                 String passwords = password.getText().toString();
+                //TODO : add SQLite database so that now when user is approved they get notified that request is either approved or reject ::User sqlite to store register information ::: then use querySnapshotListener to fetch data if approved == 1 and lic == the one store in sqlite then create notification
                 if (emails.equals("AdminNimesh") && passwords.equals("Nimesh123")) {
                     Intent intent = new Intent(MainActivity.this, Admin.class);
                     startActivity(intent);
