@@ -1,5 +1,6 @@
 package com.nimeshkadecha.e_poker;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -63,7 +64,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
 
 
 
-        Button aprov;
+        Button aprov,reject;
         TextView name , email , mobile, lictv;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -72,15 +73,66 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
             mobile = itemView.findViewById(R.id.cnumber);
             lictv = itemView.findViewById(R.id.clic);
             aprov = itemView.findViewById(R.id.approvebtn);
+            reject = itemView.findViewById(R.id.rejectbtn);
 
             aprov.setOnClickListener(new View.OnClickListener() {
+                @SuppressLint("NotifyDataSetChanged")
                 @Override
                 public void onClick(View view) {
 //                    Log.d("ENimesh","Approved click for = "+ lic.get(getAdapterPosition()));
                     boolean d = approveUser(String.valueOf(lic.get(getAdapterPosition())));
+                    if(d){
+
+                    }
+
+                }
+            });
+
+            reject.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    boolean check = rejectUser(String.valueOf(lic.get(getAdapterPosition())));
+                    if (check){
+                        Log.d("ENimesh","Rejected");
+                    }
                 }
             });
         }
+    }
+
+    boolean rejectUser(String licc){
+        final boolean[] check = {false};
+        Map<String,Object> reject = new HashMap<>();
+        reject.put("Approved",2);
+        db.collection("advocate").whereEqualTo("Approved",0)
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()){
+                            for (QueryDocumentSnapshot document: task.getResult()){
+                                db.collection("advocate").document(licc)
+                                        .update(reject)
+                                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                            @Override
+                                            public void onSuccess(Void unused) {
+                                                check[0] = true;
+                                            }
+                                        }).addOnFailureListener(new OnFailureListener() {
+                                            @Override
+                                            public void onFailure(@NonNull Exception e) {
+                                                check[0] = false;
+                                            }
+                                        });
+                            }
+                        }
+                        else{
+                            check[0]=false;
+                        }
+                    }
+
+                });
+        return check[0];
     }
 
     boolean approveUser(String licc){
@@ -110,14 +162,17 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                                                 @Override
                                                 public void onFailure(@NonNull Exception e) {
                                                     check[0]=false;
-                                                    Log.d("ENimesh","fail");
+                                                    Log.d("ENimesh","fail to update");
                                                 }
                                             });
+                                }
+                                else {
+                                    Log.d("ENimesh","Failed to compare");
                                 }
                             }
                         }else{
                             check[0]=false;
-                            Log.d("ENimesh","fail");
+                            Log.d("ENimesh","fail to success");
 
                         }
                     }

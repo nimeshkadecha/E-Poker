@@ -17,6 +17,7 @@ drawable ic_baseline_home_work_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_password_24
 drawable ic_baseline_person_24
+drawable ic_baseline_refresh_24
 drawable ic_baseline_shopping_bag_24
 drawable ic_baseline_storage_24
 drawable ic_email
@@ -50,6 +51,7 @@ id rName
 id rcontactNumber
 id recview
 id register
+id rejectbtn
 id remail
 id rlic
 id rpassword
@@ -63,6 +65,7 @@ id textInputLayoutPassword
 id textView
 id textView4
 layout activity_admin
+layout activity_admin_case
 layout activity_advocate
 layout activity_main
 layout activity_register

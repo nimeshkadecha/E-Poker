@@ -2657,6 +2657,7 @@ drawable ic_baseline_home_work_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_password_24
 drawable ic_baseline_person_24
+drawable ic_baseline_refresh_24
 drawable ic_baseline_shopping_bag_24
 drawable ic_baseline_storage_24
 drawable ic_clock_black_24dp
@@ -3124,6 +3125,7 @@ id rcontactNumber
 id rectangles
 id recview
 id register
+id rejectbtn
 id remail
 id reverseSawtooth
 id right
@@ -3402,6 +3404,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin
+layout activity_admin_case
 layout activity_advocate
 layout activity_main
 layout activity_register

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\91635\.gradle\caches\transforms-3\8f007d0c36e19c532c7fa50137ef545b\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\91635\.gradle\caches\transforms-3\1ab57c492f421a8bdc7838b54395eaac\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\91635\.gradle\caches\transforms-3\888ee2e8fcc41cb2c09b6c71362471b0\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -73,27 +73,27 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\91635\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\91635\.gradle\caches\transforms-3\ebc5cdc968831466331bfc76f957101c\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\91635\.gradle\caches\transforms-3\7b8f64ad99e6fd8a0144fbb3475e1dd6\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\91635\.gradle\caches\transforms-3\dc47f586f08d1fd7fd5c6e95e1ae353c\transformed\grpc-android-1.50.2\AndroidManifest.xml:2:1-11:12
-INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:1-58:12
 		INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:5:5-49:19
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:5:5-56:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\91635\.gradle\caches\transforms-3\888ee2e8fcc41cb2c09b6c71362471b0\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\91635\.gradle\caches\transforms-3\888ee2e8fcc41cb2c09b6c71362471b0\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\91635\.gradle\caches\transforms-3\44c24a0ba9562c7bda90cd6278db8032\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -150,46 +150,52 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\91
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.nimeshkadecha.e_poker.advocate
+activity#com.nimeshkadecha.e_poker.AdminCase
 ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:16:13-38
 meta-data#android.app.lib_name
 ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:18:13-20:36
 	android:value
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:19:17-52
-activity#com.nimeshkadecha.e_poker.Admin
+activity#com.nimeshkadecha.e_poker.advocate
 ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:23:13-34
-activity#com.nimeshkadecha.e_poker.Register
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:23:13-37
+activity#com.nimeshkadecha.e_poker.Admin
 ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:exported
 		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:30:13-37
-activity#com.nimeshkadecha.e_poker.MainActivity
-ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:36:9-48:20
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:30:13-34
+activity#com.nimeshkadecha.e_poker.Register
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:36:9-42:20
 	android:exported
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:37:13-37
+activity#com.nimeshkadecha.e_poker.MainActivity
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:43:9-55:20
+	android:exported
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:44:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml:49:27-74
 uses-sdk
 INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from N:\study\Hackathone\EPoker\app\src\main\AndroidManifest.xml
