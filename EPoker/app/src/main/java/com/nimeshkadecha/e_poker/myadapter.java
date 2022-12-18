@@ -81,10 +81,6 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                 public void onClick(View view) {
 //                    Log.d("ENimesh","Approved click for = "+ lic.get(getAdapterPosition()));
                     boolean d = approveUser(String.valueOf(lic.get(getAdapterPosition())));
-                    if(d){
-
-                    }
-
                 }
             });
 
@@ -179,4 +175,6 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                 });
         return check[0];
     }
+
+
 }

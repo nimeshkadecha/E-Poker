@@ -34,7 +34,7 @@
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:hint="@string/name"
+            android:hint="CNR Number"
             app:endIconMode="clear_text"
             app:helperText="Require*"
             app:helperTextTextColor="@color/design_default_color_error"
@@ -44,7 +44,7 @@
             app:startIconDrawable="@drawable/ic_baseline_drive_file_rename_outline_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/rName"
+                android:id="@+id/Ccnr"
                 android:layout_width="380dp"
                 android:layout_height="wrap_content"
                 android:textColorHint="#757575"
@@ -56,18 +56,17 @@
             style="@style/TextInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="@string/e_mail"
+            android:hint="Room no"
             app:endIconMode="clear_text"
-
             app:helperText="Required*"
             app:helperTextTextColor="@color/design_default_color_error"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutName"
-            app:startIconDrawable="@drawable/ic_email">
+            app:startIconDrawable="@drawable/ic_baseline_home_work_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/remail"
+                android:id="@+id/Croom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
@@ -79,23 +78,22 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayoutPassword"
             style="@style/TextInputLayout"
-
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="@string/password"
-            app:endIconMode="password_toggle"
+            android:hint="Date"
+            app:endIconMode="clear_text"
             app:helperText="Required*"
             app:helperTextTextColor="@color/design_default_color_error"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail"
-            app:startIconDrawable="@drawable/ic_baseline_lock_24">
+            app:startIconDrawable="@drawable/date">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/rpassword"
+                android:id="@+id/Cdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
+                android:inputType="date"
                 tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,7 +103,7 @@
 
             android:layout_width="380dp"
             android:layout_height="wrap_content"
-            android:hint="@string/Lic_number"
+            android:hint="Licence Number of Advocate"
             app:endIconMode="clear_text"
             app:helperText="Require*"
             app:helperTextTextColor="@color/design_default_color_error"
@@ -114,7 +112,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/rlic"
+                android:id="@+id/Clic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:ignore="TextContrastCheck" />
@@ -123,10 +121,9 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout4"
             style="@style/TextInputLayout"
-
             android:layout_width="380dp"
             android:layout_height="wrap_content"
-            android:hint="@string/contact_number"
+            android:hint="Advocate Contact Number"
             app:counterEnabled="true"
             app:endIconMode="clear_text"
             app:helperText="Require*"
@@ -138,7 +135,7 @@
             app:startIconDrawable="@drawable/ic_phone">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/rcontactNumber"
+                android:id="@+id/CcontactNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
@@ -150,11 +147,11 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/addCaseB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="@string/register"
+        android:text="Add Case"
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout2"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"

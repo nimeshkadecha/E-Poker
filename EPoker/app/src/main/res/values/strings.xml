@@ -6,7 +6,7 @@
     <string name="name">Name</string>
     <string name="password">Password</string>
     <string name="e_mail">E-mail</string>
-    <string name="Lic_number">Licence Number:</string>
+    <string name="Lic_number">Licence Number</string>
     <string name="contact_number">Contact Number:</string>
     <string name="login">Login</string>
     <string name="register">Register</string>

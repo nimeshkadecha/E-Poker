@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="Biller">Biller_OTP</string>
-    <string name="Lic_number">Licence Number:</string>
+    <string name="Lic_number">Licence Number</string>
     <string name="Menulogo">menu</string>
     <string name="about">About</string>
     <string name="add_item">Add Item</string>

@@ -4,18 +4,6 @@
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\back.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_password_24.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_password_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -44,32 +32,20 @@
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_admin.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_shopping_bag_24.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_shopping_bag_24.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_addcase.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_addcase.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/drawable_newimg.xml.flat",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/drawable/newimg.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -92,10 +68,6 @@
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\biller_splash.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_date.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\date.xml"
     },
@@ -104,36 +76,24 @@
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_money.xml"
     },
     {
+        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/layout_advocate_case_list.xml.flat",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/advocate_case_list.xml"
+    },
+    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_remove.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\remove.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_advocate.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_advocate.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_message.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\message.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_admin_case.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_admin_case.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_person_24.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_lock_24.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_caserow.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\caserow.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_numbers.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_numbers.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_home_work_24.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_home_work_24.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_phone.xml.flat",
@@ -148,28 +108,92 @@
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_house_24.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_house_24.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_storage_24.xml.flat",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_storage_24.xml"
-    },
-    {
-        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/layout_activity_addcase.xml.flat",
-        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_addcase.xml"
-    },
-    {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_password_24.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_password_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/drawable_called.xml.flat",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/drawable/called.xml"
+    },
+    {
+        "merged": "com.nimeshkadecha.e_poker.app-merged_res-46:/drawable_complete.xml.flat",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/drawable/complete.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_advocate.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_advocate.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_message.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\message.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_activity_admin_case.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_admin_case.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_home_work_24.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_home_work_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\layout_advocate_case_list.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\advocate_case_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_baseline_storage_24.xml.flat",
+        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\drawable\\ic_baseline_storage_24.xml"
     },
     {
         "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-merged_res-46:\\drawable_ic_email.xml.flat",

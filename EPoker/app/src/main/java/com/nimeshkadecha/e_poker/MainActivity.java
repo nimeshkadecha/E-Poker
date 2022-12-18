@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
                                                         loginCheck[0] = true;
                                                         Toast.makeText(MainActivity.this, "Successfull Login", Toast.LENGTH_SHORT).show();
                                                         Intent advocateHome = new Intent(MainActivity.this,advocate.class);
+                                                        advocateHome.putExtra("user",document.getString("Email"));
                                                         startActivity(advocateHome);
 
                                                     } else {

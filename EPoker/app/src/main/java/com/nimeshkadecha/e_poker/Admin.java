@@ -38,8 +38,6 @@ public class Admin extends AppCompatActivity {
 
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
 
-    private CollectionReference cRef = db.collection("advocate");
-
     private Button Caseb;
 
     @SuppressLint("MissingInflatedId")

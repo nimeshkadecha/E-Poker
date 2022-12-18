@@ -101,7 +101,7 @@
                 style="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Lic_number"
+                android:text="Licence Number:"
                 android:textColor="@color/black">
 
             </TextView>
