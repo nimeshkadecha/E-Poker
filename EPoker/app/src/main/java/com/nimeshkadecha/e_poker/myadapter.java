@@ -2,6 +2,7 @@ package com.nimeshkadecha.e_poker;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,8 +63,6 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
 
-
-
         Button aprov,reject;
         TextView name , email , mobile, lictv;
         public MyViewHolder(@NonNull View itemView) {
@@ -79,7 +78,6 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                 @SuppressLint("NotifyDataSetChanged")
                 @Override
                 public void onClick(View view) {
-//                    Log.d("ENimesh","Approved click for = "+ lic.get(getAdapterPosition()));
                     boolean d = approveUser(String.valueOf(lic.get(getAdapterPosition())));
                 }
             });
@@ -88,9 +86,6 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                 @Override
                 public void onClick(View view) {
                     boolean check = rejectUser(String.valueOf(lic.get(getAdapterPosition())));
-                    if (check){
-                        Log.d("ENimesh","Rejected");
-                    }
                 }
             });
         }
@@ -113,17 +108,21 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                                             @Override
                                             public void onSuccess(Void unused) {
                                                 check[0] = true;
+                                                Log.d("ENimesh","con "+check[0]);
+                                                myadapter.this.notifyDataSetChanged();
                                             }
                                         }).addOnFailureListener(new OnFailureListener() {
                                             @Override
                                             public void onFailure(@NonNull Exception e) {
                                                 check[0] = false;
+                                                Log.d("ENimesh","False1 ?");
                                             }
                                         });
                             }
                         }
                         else{
                             check[0]=false;
+                            Log.d("ENimesh","False2 ?");
                         }
                     }
 
@@ -153,6 +152,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                                                 public void onSuccess(Void unused) {
                                                     check[0]=true;
                                                     Log.d("ENimesh","Seccess");
+                                                    myadapter.this.notifyDataSetChanged();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {
                                                 @Override

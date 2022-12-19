@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -115,6 +116,7 @@ public class caseAdapter extends RecyclerView.Adapter<caseAdapter.myViewHolder> 
                                                 @Override
                                                 public void onSuccess(Void unused) {
                                                     check[0] = true;
+                                                    caseAdapter.this.notifyDataSetChanged();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {
                                                 @Override
@@ -156,6 +158,7 @@ public class caseAdapter extends RecyclerView.Adapter<caseAdapter.myViewHolder> 
                                                 @Override
                                                 public void onSuccess(Void unused) {
                                                     check[0] = true;
+                                                    caseAdapter.this.notifyDataSetChanged();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {
                                                 @Override

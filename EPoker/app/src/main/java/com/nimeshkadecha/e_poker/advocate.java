@@ -26,6 +26,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class advocate extends AppCompatActivity {
 
@@ -117,6 +118,8 @@ public class advocate extends AppCompatActivity {
 
     }
     void callNotify(String cnr,String room){
+        Random rnd = new Random();
+        int id = rnd.nextInt(99);
 
         Log.d("ENimesh","CNR == "+cnr);
         Log.d("ENimesh","Room == "+room);
@@ -146,7 +149,7 @@ public class advocate extends AppCompatActivity {
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(advocate.this);
         // notificationId is a unique int for each notification that you must define
-        notificationManager.notify(1, builder.build());
+        notificationManager.notify(id, builder.build());
 
 //        NotificationCompat.Builder builder = new NotificationCompat.Builder(this,"Call");
 //        builder.setContentTitle("Call Notification");

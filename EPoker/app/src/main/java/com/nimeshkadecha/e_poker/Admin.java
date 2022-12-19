@@ -34,7 +34,7 @@ public class Admin extends AppCompatActivity {
 
     private ArrayList<String> name, email, number, lic;
 
-    myadapter adapter;
+    public myadapter adapter;
 
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
 
