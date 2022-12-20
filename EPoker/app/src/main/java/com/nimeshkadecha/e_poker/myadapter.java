@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -109,6 +110,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                                             public void onSuccess(Void unused) {
                                                 check[0] = true;
                                                 Log.d("ENimesh","con "+check[0]);
+                                                Toast.makeText(context, "Rejected", Toast.LENGTH_SHORT).show();
                                                 myadapter.this.notifyDataSetChanged();
                                             }
                                         }).addOnFailureListener(new OnFailureListener() {
@@ -152,6 +154,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.MyViewHolder> {
                                                 public void onSuccess(Void unused) {
                                                     check[0]=true;
                                                     Log.d("ENimesh","Seccess");
+                                                    Toast.makeText(context, "Approved", Toast.LENGTH_SHORT).show();
                                                     myadapter.this.notifyDataSetChanged();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {

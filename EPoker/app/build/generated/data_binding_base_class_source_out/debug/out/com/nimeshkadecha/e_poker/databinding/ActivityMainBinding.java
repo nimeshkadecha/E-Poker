@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -35,6 +36,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView Lregister;
 
   @NonNull
+  public final ProgressBar Ploding;
+
+  @NonNull
   public final TextInputLayout textInputLayout;
 
   @NonNull
@@ -48,13 +52,15 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextInputEditText Lemail,
       @NonNull Button Llogin, @NonNull TextInputEditText Lpassword, @NonNull TextView Lregister,
-      @NonNull TextInputLayout textInputLayout, @NonNull TextInputLayout textInputLayout2,
-      @NonNull TextView textView, @NonNull TextView textView4) {
+      @NonNull ProgressBar Ploding, @NonNull TextInputLayout textInputLayout,
+      @NonNull TextInputLayout textInputLayout2, @NonNull TextView textView,
+      @NonNull TextView textView4) {
     this.rootView = rootView;
     this.Lemail = Lemail;
     this.Llogin = Llogin;
     this.Lpassword = Lpassword;
     this.Lregister = Lregister;
+    this.Ploding = Ploding;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
     this.textView = textView;
@@ -112,6 +118,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.Ploding;
+      ProgressBar Ploding = ViewBindings.findChildViewById(rootView, id);
+      if (Ploding == null) {
+        break missingId;
+      }
+
       id = R.id.textInputLayout;
       TextInputLayout textInputLayout = ViewBindings.findChildViewById(rootView, id);
       if (textInputLayout == null) {
@@ -137,7 +149,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, Lemail, Llogin, Lpassword,
-          Lregister, textInputLayout, textInputLayout2, textView, textView4);
+          Lregister, Ploding, textInputLayout, textInputLayout2, textView, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -116,12 +117,14 @@ public class caseAdapter extends RecyclerView.Adapter<caseAdapter.myViewHolder> 
                                                 @Override
                                                 public void onSuccess(Void unused) {
                                                     check[0] = true;
+                                                    Toast.makeText(context, "Case Completed", Toast.LENGTH_SHORT).show();
                                                     caseAdapter.this.notifyDataSetChanged();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {
                                                 @Override
                                                 public void onFailure(@NonNull Exception e) {
                                                     check[0] = false;
+                                                    Toast.makeText(context, "Failed to Complete case", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                 }
@@ -132,6 +135,7 @@ public class caseAdapter extends RecyclerView.Adapter<caseAdapter.myViewHolder> 
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         Log.d("Enimesh", String.valueOf(e));
+                        Toast.makeText(context, "Failed to Complete case", Toast.LENGTH_SHORT).show();
                         check[0] = false;
                     }
                 });
@@ -158,12 +162,14 @@ public class caseAdapter extends RecyclerView.Adapter<caseAdapter.myViewHolder> 
                                                 @Override
                                                 public void onSuccess(Void unused) {
                                                     check[0] = true;
+                                                    Toast.makeText(context, "Case Called", Toast.LENGTH_SHORT).show();
                                                     caseAdapter.this.notifyDataSetChanged();
                                                 }
                                             }).addOnFailureListener(new OnFailureListener() {
                                                 @Override
                                                 public void onFailure(@NonNull Exception e) {
                                                     check[0] = false;
+                                                    Toast.makeText(context, "Failed to call case", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                 }
@@ -174,6 +180,7 @@ public class caseAdapter extends RecyclerView.Adapter<caseAdapter.myViewHolder> 
                     @Override
                     public void onFailure(@NonNull Exception e) {
                         Log.d("Enimesh", String.valueOf(e));
+                        Toast.makeText(context, "Failed to call case", Toast.LENGTH_SHORT).show();
                         check[0] = false;
                     }
                 });

@@ -1,6 +1,5 @@
 R_DEF: Internal format may change without notice
 local
-array countries_array
 color black
 color purple_200
 color purple_500
@@ -32,6 +31,7 @@ drawable ic_numbers
 drawable ic_phone
 drawable message
 drawable newimg
+drawable progress_back
 drawable remove
 drawable toolbarlogo
 id AAlic
@@ -58,6 +58,12 @@ id Lemail
 id Llogin
 id Lpassword
 id Lregister
+id Ploding
+id PlodingAC
+id PlodingADMIN
+id PlodingADMINCase
+id PlodingAdvocate
+id Plodingr
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
@@ -84,8 +90,7 @@ id rejectbtn
 id remail
 id rlic
 id rpassword
-id t
-id test
+id statustv
 id textInputLayout
 id textInputLayout2
 id textInputLayout4

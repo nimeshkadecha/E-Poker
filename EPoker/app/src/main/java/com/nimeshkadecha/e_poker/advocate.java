@@ -3,10 +3,16 @@ package com.nimeshkadecha.e_poker;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -32,6 +38,10 @@ public class advocate extends AppCompatActivity {
 
     private RecyclerView AdvocateRec;
 
+    private TextView statust;
+
+    private ProgressBar pb;
+
     FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     private ArrayList Acnr, Aroom, Adate, Alic, Amobile,ACstatus;
@@ -39,11 +49,37 @@ public class advocate extends AppCompatActivity {
     AdvocateCaseAdapter A_adapter;
 
     String b = "E-Poker";
+    //    Verifying internet is ON
+    boolean checkConnection() {
+        ConnectivityManager manager = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        NetworkInfo net = manager.getActiveNetworkInfo();
+
+        if (net == null) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advocate);
+
+        statust = findViewById(R.id.statustv);
+
+        pb=findViewById(R.id.PlodingAdvocate);
+        pb.setVisibility(View.VISIBLE);
+
+        if (checkConnection()){
+            statust.setText("");
+            statust.setVisibility(View.INVISIBLE);
+        }else{
+            pb.setVisibility(View.INVISIBLE);
+            statust.setVisibility(View.VISIBLE);
+            statust.setText("No Internet");
+        }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             CharSequence name = "E-poker";
             String description = "poker notifications";
@@ -87,7 +123,7 @@ public class advocate extends AppCompatActivity {
                                 db.collection("case").whereEqualTo("ALicence", licence[0])
                                         .addSnapshotListener(new EventListener<QuerySnapshot>() {
                                             @Override
-                                            public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
+                                            public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {pb.setVisibility(View.VISIBLE);
                                                 Acnr.removeAll(Acnr);
                                                 Aroom.removeAll(Aroom);
                                                 Adate.removeAll(Adate);
@@ -107,10 +143,12 @@ public class advocate extends AppCompatActivity {
                                                     }
                                                     A_adapter.notifyDataSetChanged();
                                                 }
+                                                pb.setVisibility(View.INVISIBLE);
                                             }
                                         });
                             }
                         } else {
+                            pb.setVisibility(View.INVISIBLE);
                             Toast.makeText(advocate.this, "Nothing to Show", Toast.LENGTH_SHORT).show();
                         }
                     }

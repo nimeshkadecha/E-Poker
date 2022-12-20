@@ -69,26 +69,6 @@
             tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
-<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
-<!--        android:id="@+id/constraintLayout3"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="32dp"-->
-<!--        android:layout_marginTop="50dp"-->
-<!--        android:layout_marginEnd="32dp"-->
-<!--        app:layout_constraintEnd_toEndOf="@+id/textInputLayout2"-->
-<!--        app:layout_constraintStart_toStartOf="@+id/textInputLayout2"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">-->
-
-<!--        <Button-->
-<!--            android:id="@+id/Lregister"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/register"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent"-->
-<!--            tools:ignore="UsingOnClickInXml,TextContrastCheck" />-->
-
     <Button
         android:id="@+id/Llogin"
         android:layout_width="wrap_content"
@@ -99,7 +79,6 @@
         app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
         tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml,TextContrastCheck" />
-<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <TextView
         android:id="@+id/textView"
@@ -123,5 +102,18 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ProgressBar
+        android:id="@+id/Ploding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_back"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

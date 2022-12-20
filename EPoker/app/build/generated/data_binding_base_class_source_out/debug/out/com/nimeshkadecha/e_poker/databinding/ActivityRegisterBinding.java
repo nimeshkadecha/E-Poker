@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,6 +25,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
 
   @NonNull
   public final TextView AlreadyUserTV;
+
+  @NonNull
+  public final ProgressBar Plodingr;
 
   @NonNull
   public final ConstraintLayout constraintLayout2;
@@ -68,10 +72,10 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextView textView;
 
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView AlreadyUserTV, @NonNull ConstraintLayout constraintLayout2,
-      @NonNull TextView head, @NonNull TextInputEditText rName,
-      @NonNull TextInputEditText rcontactNumber, @NonNull Button register,
-      @NonNull TextInputEditText remail, @NonNull TextInputEditText rlic,
+      @NonNull TextView AlreadyUserTV, @NonNull ProgressBar Plodingr,
+      @NonNull ConstraintLayout constraintLayout2, @NonNull TextView head,
+      @NonNull TextInputEditText rName, @NonNull TextInputEditText rcontactNumber,
+      @NonNull Button register, @NonNull TextInputEditText remail, @NonNull TextInputEditText rlic,
       @NonNull TextInputEditText rpassword, @NonNull TextInputLayout textInputLayout4,
       @NonNull TextInputLayout textInputLayoutEmail,
       @NonNull TextInputLayout textInputLayoutGSTNumber,
@@ -79,6 +83,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
       @NonNull TextInputLayout textInputLayoutPassword, @NonNull TextView textView) {
     this.rootView = rootView;
     this.AlreadyUserTV = AlreadyUserTV;
+    this.Plodingr = Plodingr;
     this.constraintLayout2 = constraintLayout2;
     this.head = head;
     this.rName = rName;
@@ -125,6 +130,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
       id = R.id.AlreadyUserTV;
       TextView AlreadyUserTV = ViewBindings.findChildViewById(rootView, id);
       if (AlreadyUserTV == null) {
+        break missingId;
+      }
+
+      id = R.id.Plodingr;
+      ProgressBar Plodingr = ViewBindings.findChildViewById(rootView, id);
+      if (Plodingr == null) {
         break missingId;
       }
 
@@ -212,7 +223,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, AlreadyUserTV,
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, AlreadyUserTV, Plodingr,
           constraintLayout2, head, rName, rcontactNumber, register, remail, rlic, rpassword,
           textInputLayout4, textInputLayoutEmail, textInputLayoutGSTNumber, textInputLayoutName,
           textInputLayoutPassword, textView);
