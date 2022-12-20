@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 String emails = email.getText().toString();
                 String passwords = password.getText().toString();
                 //TODO : add SQLite database so that now when user is approved they get notified that request is either approved or reject ::User sqlite to store register information ::: then use querySnapshotListener to fetch data if approved == 1 and lic == the one store in sqlite then create notification
-                if (emails.equals("AdminNimesh") && passwords.equals("Nimesh123")) {
+                if (emails.equals("Admin") && passwords.equals("123")) {
                     Intent intent = new Intent(MainActivity.this, Admin.class);
                     startActivity(intent);
 
@@ -74,21 +74,13 @@ public class MainActivity extends AppCompatActivity {
                     if (ev && pv) {
                         db.collection("advocate")
                                 .whereEqualTo("Email", emails)
-//                                .whereEqualTo("password",passwords)
                                 .get()
                                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                                     @Override
                                     public void onComplete(@NonNull Task<QuerySnapshot> task) {
                                         if (task.isSuccessful()) {
-//                                            Toast.makeText(MainActivity.this, "DATA fetched", Toast.LENGTH_SHORT).show();
                                             for (QueryDocumentSnapshot document : task.getResult()) {
-//                                                Log.d("ENimesh", document.getData()+"&& id = "+document.getId());
-//                                                Log.d("ENimesh", "Email == " + document.getString("Email"));
-//                                                Log.d("ENimesh", "Email == " + document.getString("Password"));
-//                                                Log.d("ENimesh", "Email == "+document.getData());
                                                 String test = String.valueOf(document.get("Approved"));
-//                                                Log.d("ENimesh", "tapproved !!!!!!!!!!! == "+document.get("Approved"));
-//                                                Log.d("ENimesh", "test == "+test);
 
                                                 if (emails.equals(document.getString("Email")) && passwords.equals(document.getString("Password"))) {
                                                     if (test.equals("1")) {
@@ -105,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
                                                 }
 
                                             }
-//                                            Log.d("ENimesh", String.valueOf(task.getResult()));
                                         } else {
                                             Toast.makeText(MainActivity.this, "Failed", Toast.LENGTH_SHORT).show();
                                         }
