@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array countries_array
 color black
 color purple_200
 color purple_500
@@ -83,6 +84,8 @@ id rejectbtn
 id remail
 id rlic
 id rpassword
+id t
+id test
 id textInputLayout
 id textInputLayout2
 id textInputLayout4

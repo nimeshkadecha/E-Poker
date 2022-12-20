@@ -73,6 +73,7 @@ int animator nav_default_enter_anim 0x7f02001f
 int animator nav_default_exit_anim 0x7f020020
 int animator nav_default_pop_enter_anim 0x7f020021
 int animator nav_default_pop_exit_anim 0x7f020022
+int array countries_array 0x7f150000
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr action 0x7f030002
@@ -3227,6 +3228,7 @@ int id stretch 0x7f0801d7
 int id submenuarrow 0x7f0801d8
 int id submit_area 0x7f0801d9
 int id supportScrollUp 0x7f0801da
+int id t 0x7f08022a
 int id tabMode 0x7f0801db
 int id tag_accessibility_actions 0x7f0801dc
 int id tag_accessibility_clickable_spans 0x7f0801dd
@@ -3241,6 +3243,7 @@ int id tag_transition_group 0x7f0801e5
 int id tag_unhandled_key_event_manager 0x7f0801e6
 int id tag_unhandled_key_listeners 0x7f0801e7
 int id tag_window_insets_animation_callback 0x7f0801e8
+int id test 0x7f08022b
 int id text 0x7f0801e9
 int id text2 0x7f0801ea
 int id textEnd 0x7f0801eb
