@@ -147,9 +147,17 @@ public class MainActivity extends AppCompatActivity {
                                                             Intent advocateHome = new Intent(MainActivity.this,advocate.class);
                                                             advocateHome.putExtra("user",document.getString("Email"));
                                                             startActivity(advocateHome);
-                                                        } else {
+                                                        } else if(test.equals("0")) {
+                                                            lodingPB.setVisibility(View.INVISIBLE);
+                                                            Toast.makeText(MainActivity.this, "Account is not verified", Toast.LENGTH_SHORT).show();
 //                                                            Calling notification code to generate notification
-                                                            createNotification();
+                                                            createNotificationNotApproved();
+                                                        }else if (test.equals("2")){
+                                                            lodingPB.setVisibility(View.INVISIBLE);
+                                                            Toast.makeText(MainActivity.this, "Account is rejected", Toast.LENGTH_SHORT).show();
+                                                            createNotificationNotRejected();
+                                                        }else{
+                                                            Toast.makeText(MainActivity.this, "Error contact ADMIN", Toast.LENGTH_SHORT).show();
                                                         }
                                                     }else{
                                                         lodingPB.setVisibility(View.INVISIBLE);
@@ -218,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
         // the NotificationChannel class is new and not in the support library
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             CharSequence name = "Account Verification";
-            String description = "your account is not confirmed by admin,\n try again after sometime";
+            String description = "Status of your request";
             int importance = NotificationManager.IMPORTANCE_HIGH;
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
             channel.setDescription(description);
@@ -229,7 +237,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void createNotification() {
+    private void createNotificationNotApproved() {
         Random r = new Random();
         int id = r.nextInt(99);
         String CHANNEL_ID = "com.nimeshkadecha.e_poker";
@@ -242,6 +250,30 @@ public class MainActivity extends AppCompatActivity {
                 .setSmallIcon(R.drawable.toolbarlogo)
                 .setContentTitle("Account is not verified")
                 .setContentText("your account is not confirmed by admin,\n try again after sometime")
+                .setPriority(NotificationCompat.PRIORITY_MAX)
+                // Set the intent that will fire when the user taps the notification
+                .setContentIntent(pendingIntent)
+                .setAutoCancel(true);
+
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+
+// notificationId is a unique int for each notification that you must define
+        notificationManager.notify(id, builder.build());
+    }
+
+    private void createNotificationNotRejected() {
+        Random r = new Random();
+        int id = r.nextInt(99);
+        String CHANNEL_ID = "com.nimeshkadecha.e_poker";
+        // Create an explicit intent for an Activity in your app
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
+
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                .setSmallIcon(R.drawable.toolbarlogo)
+                .setContentTitle("Account is Rejected")
+                .setContentText("your account is Rejected")
                 .setPriority(NotificationCompat.PRIORITY_MAX)
                 // Set the intent that will fire when the user taps the notification
                 .setContentIntent(pendingIntent)
