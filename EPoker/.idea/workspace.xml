@@ -16,12 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e77eddc-f8f9-437a-bd6f-d214c164b1b9" name="Changes" comment="Update Admin User name And Password 123">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/advocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/advocate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_advocate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_advocate.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e77eddc-f8f9-437a-bd6f-d214c164b1b9" name="Changes" comment="Update Admin User name And Password 123" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
