@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
@@ -23,14 +24,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.google.android.gms.tasks.OnCanceledListener;
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
     private TextView register;
 
     private ProgressBar lodingPB;
+
+//    Keep user LOGED IN
+    public static final String SHARED_PREFS = "sharedPrefs";
 
     FirebaseFirestore db;
 
@@ -76,6 +79,13 @@ public class MainActivity extends AppCompatActivity {
 //        Firestore database instance
         db = FirebaseFirestore.getInstance();
 
+//      If there is internet and user is already loged in then go to advocate
+        boolean checkNet = checkConnection();
+        if (checkNet) {
+//                    Is user have internet then check is user has loged in or not
+            alreadyLogin();
+        }
+
 //        On click listener for Register text view and goin t oregister activity
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 lodingPB.setVisibility(View.VISIBLE);
 //                Checking internet is available or not
                 boolean checkNet = checkConnection();
-                if (checkNet){
+                if (checkNet) {
 //                    if internet is available then finding strings
                     String emails = email.getText().toString();
                     String passwords = password.getText().toString();
@@ -128,9 +138,7 @@ public class MainActivity extends AppCompatActivity {
 //                            Going to advocate collection
                             db.collection("advocate")
 //                                    Where condition to find EMAIL of that user
-                                    .whereEqualTo("Email", emails)
-                                    .get()
-                                    .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                                    .whereEqualTo("Email", emails).get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                                         @Override
                                         public void onComplete(@NonNull Task<QuerySnapshot> task) {
                                             if (task.isSuccessful()) {
@@ -144,22 +152,30 @@ public class MainActivity extends AppCompatActivity {
                                                             lodingPB.setVisibility(View.INVISIBLE);
 //                                                            If approved then it let log in else create notification
                                                             Toast.makeText(MainActivity.this, "Successfull Login", Toast.LENGTH_SHORT).show();
-                                                            Intent advocateHome = new Intent(MainActivity.this,advocate.class);
-                                                            advocateHome.putExtra("user",document.getString("Email"));
+
+                                                            SharedPreferences sp = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+                                                            SharedPreferences.Editor editor = sp.edit();
+                                                            editor.putString("Login","true");
+                                                            editor.putString("UserName",document.getString("Email"));
+                                                            editor.apply();
+
+                                                            Intent advocateHome = new Intent(MainActivity.this, advocate.class);
+                                                            advocateHome.putExtra("user", document.getString("Email"));
                                                             startActivity(advocateHome);
-                                                        } else if(test.equals("0")) {
+                                                            finish();
+                                                        } else if (test.equals("0")) {
                                                             lodingPB.setVisibility(View.INVISIBLE);
                                                             Toast.makeText(MainActivity.this, "Account is not verified", Toast.LENGTH_SHORT).show();
 //                                                            Calling notification code to generate notification
                                                             createNotificationNotApproved();
-                                                        }else if (test.equals("2")){
+                                                        } else if (test.equals("2")) {
                                                             lodingPB.setVisibility(View.INVISIBLE);
                                                             Toast.makeText(MainActivity.this, "Account is rejected", Toast.LENGTH_SHORT).show();
                                                             createNotificationNotRejected();
-                                                        }else{
+                                                        } else {
                                                             Toast.makeText(MainActivity.this, "Error contact ADMIN", Toast.LENGTH_SHORT).show();
                                                         }
-                                                    }else{
+                                                    } else {
                                                         lodingPB.setVisibility(View.INVISIBLE);
 //                                                        If password is worng
                                                         Toast.makeText(MainActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();
@@ -172,21 +188,20 @@ public class MainActivity extends AppCompatActivity {
                                             }
                                         }
                                     });
-                        }
-                        else {
+                        } else {
                             lodingPB.setVisibility(View.INVISIBLE);
 //                            if email or password method return flalse the check this
-                            if(emails.isEmpty() && passwords.isEmpty()){
+                            if (emails.isEmpty() && passwords.isEmpty()) {
 //                                If both are empty
                                 Toast.makeText(MainActivity.this, "Enter E-mail and Password", Toast.LENGTH_SHORT).show();
-                            }else if (!ev){
+                            } else if (!ev) {
                                 Toast.makeText(MainActivity.this, "Invalid E-mail", Toast.LENGTH_SHORT).show();
-                            }else{
+                            } else {
                                 Toast.makeText(MainActivity.this, "Invalid Password", Toast.LENGTH_SHORT).show();
                             }
                         }
                     }
-                }else{
+                } else {
                     lodingPB.setVisibility(View.INVISIBLE);
 //                    If there is not internet then show this
                     Toast.makeText(MainActivity.this, "No Internet", Toast.LENGTH_SHORT).show();
@@ -196,7 +211,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    Validating EMAIL
+    private void alreadyLogin() {
+        SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+        String checkLogin = sharedPreferences.getString("Login", "");
+        String username = sharedPreferences.getString("UserName","");
+        if(Objects.equals(checkLogin, "true")) {
+            Intent advocateHome = new Intent(MainActivity.this, advocate.class);
+            advocateHome.putExtra("user", username);
+            Log.d("ENimesh","already user name = "+username);
+            startActivity(advocateHome);
+            finish();
+        }
+    }
+
+    //    Validating EMAIL
     public boolean EmailValidation(String email) {
         String emailinput = email;
         if (!emailinput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailinput).matches()) {
@@ -246,14 +274,9 @@ public class MainActivity extends AppCompatActivity {
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setSmallIcon(R.drawable.toolbarlogo)
-                .setContentTitle("Account is not verified")
-                .setContentText("your account is not confirmed by admin,\n try again after sometime")
-                .setPriority(NotificationCompat.PRIORITY_MAX)
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID).setSmallIcon(R.drawable.toolbarlogo).setContentTitle("Account is not verified").setContentText("your account is not confirmed by admin,\n try again after sometime").setPriority(NotificationCompat.PRIORITY_MAX)
                 // Set the intent that will fire when the user taps the notification
-                .setContentIntent(pendingIntent)
-                .setAutoCancel(true);
+                .setContentIntent(pendingIntent).setAutoCancel(true);
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
 
@@ -270,14 +293,9 @@ public class MainActivity extends AppCompatActivity {
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setSmallIcon(R.drawable.toolbarlogo)
-                .setContentTitle("Account is Rejected")
-                .setContentText("your account is Rejected")
-                .setPriority(NotificationCompat.PRIORITY_MAX)
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID).setSmallIcon(R.drawable.toolbarlogo).setContentTitle("Account is Rejected").setContentText("your account is Rejected").setPriority(NotificationCompat.PRIORITY_MAX)
                 // Set the intent that will fire when the user taps the notification
-                .setContentIntent(pendingIntent)
-                .setAutoCancel(true);
+                .setContentIntent(pendingIntent).setAutoCancel(true);
 
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
 

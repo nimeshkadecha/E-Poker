@@ -5,12 +5,14 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,6 +44,10 @@ public class advocate extends AppCompatActivity {
 
     private ProgressBar pb;
 
+    private Button logOut;
+
+    public static final String SHARED_PREFS = "sharedPrefs";
+
     FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     private ArrayList Acnr, Aroom, Adate, Alic, Amobile,ACstatus;
@@ -71,6 +77,27 @@ public class advocate extends AppCompatActivity {
 
         pb=findViewById(R.id.PlodingAdvocate);
         pb.setVisibility(View.VISIBLE);
+
+        logOut = findViewById(R.id.logoutAdvocate);
+
+        logOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                statust.setText("");
+                statust.setVisibility(View.INVISIBLE);
+
+                SharedPreferences sp = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+                SharedPreferences.Editor editor = sp.edit();
+                editor.putString("Login","false");
+                editor.putString("UserName","");
+                editor.apply();
+
+                Intent logOUT = new Intent(advocate.this,MainActivity.class);
+                startActivity(logOUT);
+                finish();
+
+            }
+        });
 
         if (checkConnection()){
             statust.setText("");
@@ -153,9 +180,15 @@ public class advocate extends AppCompatActivity {
                         }
                     }
                 });
-
     }
-    void callNotify(String cnr,String room){
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
+    }
+
+    void callNotify(String cnr, String room){
         Random rnd = new Random();
         int id = rnd.nextInt(99);
 
