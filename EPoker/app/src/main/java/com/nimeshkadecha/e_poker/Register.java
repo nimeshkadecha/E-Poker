@@ -53,17 +53,17 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        lodingPB = findViewById(R.id.Plodingr);
+            lodingPB = findViewById(R.id.Plodingr);
 
-//        Fetching all info
-        name = findViewById(R.id.rName);
-        email = findViewById(R.id.remail);
-        db = FirebaseFirestore.getInstance();
-        password = findViewById(R.id.rpassword);
-        mobile = findViewById(R.id.rcontactNumber);
-        licence = findViewById(R.id.rlic);
+    //        Fetching all info
+            name = findViewById(R.id.rName);
+            email = findViewById(R.id.remail);
+            db = FirebaseFirestore.getInstance();
+            password = findViewById(R.id.rpassword);
+            mobile = findViewById(R.id.rcontactNumber);
+            licence = findViewById(R.id.rlic);
 
-        ALogin = findViewById(R.id.AlreadyUserTV);
+            ALogin = findViewById(R.id.AlreadyUserTV);
 
 //        managing textview for user who has account
         ALogin.setOnClickListener(new View.OnClickListener() {

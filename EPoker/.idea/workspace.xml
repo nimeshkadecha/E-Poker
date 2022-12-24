@@ -16,7 +16,73 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e77eddc-f8f9-437a-bd6f-d214c164b1b9" name="Changes" comment="Update Admin User name And Password 123" />
+    <list default="true" id="3e77eddc-f8f9-437a-bd6f-d214c164b1b9" name="Changes" comment="Update Admin User name And Password 123">
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/AdvocateCaseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/advocate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/progress_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/layout/activity_advocate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/layout/advocate_case_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/biller_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/called.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/complete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/date.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/duplicate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_drive_file_rename_outline_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_home_work_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_house_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_password_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_refresh_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_shopping_bag_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_baseline_storage_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_money.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_numbers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_phone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/newimg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/remove.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/toolbarlogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nimeshkadecha/e_poker/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/biller_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/biller_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/called.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/called.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/complete.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/complete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/date.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/date.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/duplicate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/duplicate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_drive_file_rename_outline_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_drive_file_rename_outline_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_home_work_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_home_work_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_house_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_house_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_lock_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_password_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_password_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_person_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_refresh_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_refresh_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_shopping_bag_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_storage_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_baseline_storage_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_email.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_money.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_money.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_numbers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_numbers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/ic_phone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/newimg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/newimg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/remove.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/remove.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/toolbarlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/res/drawable-v24/toolbarlogo.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
