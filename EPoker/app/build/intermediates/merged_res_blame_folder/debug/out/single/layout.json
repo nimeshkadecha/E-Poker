@@ -1,42 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_advocate.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_advocate.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_register.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\singlerow.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\singlerow.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_admin.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_admin.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_admin_case.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_admin_case.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/advocate_case_list.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/advocate_case_list.xml"
     },
     {
         "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_advocate.xml",
         "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_advocate.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_addcase.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_addcase.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_register.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/caserow.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/caserow.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\advocate_case_list.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\advocate_case_list.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_addcase.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_addcase.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_main.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/singlerow.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/singlerow.xml"
     },
     {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\caserow.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\caserow.xml"
-    },
-    {
-        "merged": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-mergeDebugResources-45:\\layout\\activity_admin.xml",
-        "source": "C:\\Users\\91635\\.gradle\\daemon\\7.4\\com.nimeshkadecha.e_poker.app-main-48:\\layout\\activity_admin.xml"
+        "merged": "com.nimeshkadecha.e_poker.app-mergeDebugResources-45:/layout/activity_admin_case.xml",
+        "source": "com.nimeshkadecha.e_poker.app-main-48:/layout/activity_admin_case.xml"
     }
 ]
