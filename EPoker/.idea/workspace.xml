@@ -17,8 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e77eddc-f8f9-437a-bd6f-d214c164b1b9" name="Changes" comment="Update Admin User name And Password 123">
-      <change beforePath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/advocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../E-pokerWeb/app/src/main/java/com/nimeshkadecha/e_pokerWeb/advocate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[e7d79767]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\91635\.android\avd\Pixel_5_API_31.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
