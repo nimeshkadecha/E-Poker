@@ -1,7 +1,5 @@
 package com.nimeshkadecha.e_pokerWeb;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -11,6 +9,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -64,29 +64,44 @@ public class register extends AppCompatActivity {
                 reference = FirebaseDatabase.getInstance().getReference();
 
                 //                Checking all conditions
-                if (nameS.length() == 0) {
+                if (nameS.length() == 0 && emailS.length() == 0 && passwordS.length() == 0 && mobileS.length() == 0 && licenceS.length() == 0) {
+                    lodingPB.setVisibility(View.INVISIBLE);
+                    Toast.makeText(register.this, "Fill up above details", Toast.LENGTH_SHORT).show();
+                } else if (nameS.length() == 0) {
+                    name.setError("Enter Name");
                     lodingPB.setVisibility(View.INVISIBLE);
                     Toast.makeText(register.this, "Enter Name", Toast.LENGTH_SHORT).show();
                 } else if (emailS.length() == 0) {
+                    email.setError("Enter Email");
                     lodingPB.setVisibility(View.INVISIBLE);
                     Toast.makeText(register.this, "Enter Email", Toast.LENGTH_SHORT).show();
                 } else if (passwordS.length() == 0) {
+                    password.setError("Enter Password");
                     lodingPB.setVisibility(View.INVISIBLE);
                     Toast.makeText(register.this, "Enter Password", Toast.LENGTH_SHORT).show();
-                } else if (mobileS.length() == 0) {
-                    lodingPB.setVisibility(View.INVISIBLE);
-                    Toast.makeText(register.this, "Enter Mobile Number", Toast.LENGTH_SHORT).show();
                 } else if (licenceS.length() == 0) {
+                    licence.setError("Enter Licence Number");
                     lodingPB.setVisibility(View.INVISIBLE);
                     Toast.makeText(register.this, "Enter Licence Number", Toast.LENGTH_SHORT).show();
+                } else if (mobileS.length() == 0) {
+                    mobile.setError("Enter Mobile Number");
+                    lodingPB.setVisibility(View.INVISIBLE);
+                    Toast.makeText(register.this, "Enter Mobile Number", Toast.LENGTH_SHORT).show();
+
+                } else if (mobileS.length() != 10) {
+                    mobile.setError("Enter Valid Mobile Number");
+                    lodingPB.setVisibility(View.INVISIBLE);
+                    Toast.makeText(register.this, "Enter valid Mobile Number", Toast.LENGTH_SHORT).show();
                 } else {
 //                    Valadition methods
                     boolean ev = EmailValidation(emailS);
                     boolean pv = passwordValidation(passwordS);
                     if (!ev) {
+                        email.setError("Enter Valid Email");
                         lodingPB.setVisibility(View.INVISIBLE);
                         Toast.makeText(register.this, "Enter Valid Email", Toast.LENGTH_SHORT).show();
                     } else if (!pv) {
+                        password.setError("Enter valid Password");
                         lodingPB.setVisibility(View.INVISIBLE);
                         Toast.makeText(register.this, "Enter Valid Password", Toast.LENGTH_SHORT).show();
                     }
@@ -106,6 +121,7 @@ public class register extends AppCompatActivity {
             }
         });
     }
+
     public boolean EmailValidation(String email) {
         String emailinput = email;
         if (!emailinput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailinput).matches()) {

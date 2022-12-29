@@ -153,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
                                         }
                                     }else{
                                         lodingPB.setVisibility(View.INVISIBLE);
+                                        password.setError("Wrong Password");
                                         Toast.makeText(MainActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();
                                     }
                                 }else{
@@ -200,6 +201,7 @@ public class MainActivity extends AppCompatActivity {
                                         }
                                     }else{
                                         lodingPB.setVisibility(View.INVISIBLE);
+
                                         Toast.makeText(MainActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();
                                     }
                                 }else{
@@ -225,14 +227,24 @@ public class MainActivity extends AppCompatActivity {
                         });
                     }else{
                         lodingPB.setVisibility(View.INVISIBLE);
-                        if(emails.length() == 0){
+                        if(emails.length() == 0 && passwords.length()==0){
+                            email.setError("Please Enter Email");
+                            password.setError("Please Enter password");
+                            Toast.makeText(MainActivity.this, "Please Enter E-Mail and password", Toast.LENGTH_SHORT).show();
+
+                        }
+                        else if(emails.length() == 0){
+                            email.setError("Please Enter Email");
                             Toast.makeText(MainActivity.this, "Please Enter E-Mail", Toast.LENGTH_SHORT).show();
                         }
                         else if(passwords.length() == 0){
+                            password.setError("Please Enter Password");
                             Toast.makeText(MainActivity.this, "Please Enter Password", Toast.LENGTH_SHORT).show();
                         }else if(!ev){
+                            email.setError("Please Enter valid Email");
                             Toast.makeText(MainActivity.this, "Invalid Email", Toast.LENGTH_SHORT).show();
                         }else if(!pv){
+                            email.setError("Please Enter valid Password");
                             Toast.makeText(MainActivity.this, "Invalid Password", Toast.LENGTH_SHORT).show();
                         }else{
                             Toast.makeText(MainActivity.this, "ERROR", Toast.LENGTH_SHORT).show();
