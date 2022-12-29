@@ -6,6 +6,8 @@
     android:layout_margin="16dp"
     app:cardCornerRadius="16dp"
     app:cardElevation="12dp"
+    android:background="#96BAEC"
+    android:backgroundTint="#AFDBF5"
     >
 
     <LinearLayout
@@ -21,7 +23,7 @@
             android:orientation="horizontal">
 
             <TextView
-                style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CNR :"
@@ -31,7 +33,7 @@
 
             <TextView
                 android:id="@+id/ACcnr"
-                style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black">
@@ -44,10 +46,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <TextView
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Room :"
@@ -58,6 +62,7 @@
             <TextView
                 android:id="@+id/ACroom"
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black">
@@ -73,6 +78,7 @@
 
             <TextView
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Date:"
@@ -83,6 +89,7 @@
             <TextView
                 android:id="@+id/ACdate"
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black">
@@ -98,6 +105,7 @@
 
             <TextView
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Licence Number:"
@@ -108,6 +116,7 @@
             <TextView
                 android:id="@+id/AAlic"
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black">
@@ -123,6 +132,7 @@
 
             <TextView
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mobile Number:"
@@ -133,6 +143,7 @@
             <TextView
                 android:id="@+id/AAmob"
                 style="bold"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black">
