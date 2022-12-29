@@ -1,13 +1,5 @@
 package com.nimeshkadecha.e_pokerWeb;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -25,15 +17,21 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Map;
 import java.util.Random;
 
@@ -50,11 +48,12 @@ public class advocate extends AppCompatActivity {
 
     public static final String SHARED_PREFS = "sharedPrefs";
 
-    private ArrayList Acnr, Aroom, Adate, Alic, Amobile,ACstatus;
+    private ArrayList Acnr, Aroom, Adate, Alic, Amobile, ACstatus;
 
     AdvocateCaseAdapter A_adapter;
 
     String b = "E-Poker";
+
     //    Verifying internet is ON
     boolean checkConnection() {
         ConnectivityManager manager = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -79,19 +78,19 @@ public class advocate extends AppCompatActivity {
 
         statust = findViewById(R.id.statustv);
 
-        pb=findViewById(R.id.PlodingAdvocate);
+        pb = findViewById(R.id.PlodingAdvocate);
         pb.setVisibility(View.VISIBLE);
 
-        if (checkConnection()){
+        if (checkConnection()) {
             statust.setText("");
             statust.setVisibility(View.INVISIBLE);
-        }else{
+        } else {
             pb.setVisibility(View.INVISIBLE);
             statust.setVisibility(View.VISIBLE);
             statust.setText("No Internet");
         }
 
-        logOut = findViewById(R.id.logoutAdvocate);
+        logOut = findViewById(R.id.logoutAdvocate);     
 
         //        Getting user email from intent
         Bundle b = getIntent().getExtras();
@@ -105,8 +104,10 @@ public class advocate extends AppCompatActivity {
         Amobile = new ArrayList<>();
         ACstatus = new ArrayList<>();
 
+//        Collections.swap(Acnr,0,);
+
         AdvocateRec = findViewById(R.id.AdvocateRec);
-        A_adapter = new AdvocateCaseAdapter(this, Acnr, Aroom, Adate, Alic, Amobile,ACstatus);
+        A_adapter = new AdvocateCaseAdapter(this, Acnr, Aroom, Adate, Alic, Amobile, ACstatus);
         AdvocateRec.setAdapter(A_adapter);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
 
@@ -123,52 +124,38 @@ public class advocate extends AppCompatActivity {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 Map map = (Map) snapshot.getValue();
+//                Log.d("ENimesh","length = " + map.size());
+
                 String check_licence = String.valueOf(map.get("ALicence"));
                 int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
-                if(check_licence.equals(licence) && condition == 0){
+                if (check_licence.equals(licence)) {
                     Acnr.add(map.get("CNR"));
                     Aroom.add(map.get("Room"));
                     Adate.add(map.get("Date"));
                     Alic.add(map.get("ALicence"));
                     Amobile.add(map.get("AMobile"));
                     ACstatus.add(map.get("CaseCondition"));
-                    if(condition == 1){
+                    if (condition == 1) {
                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                     }
                     A_adapter.notifyDataSetChanged();
-
-                    statust.setVisibility(View.INVISIBLE);
-                    pb.setVisibility(View.INVISIBLE);
-                }
-                if(check_licence.equals(licence) && condition == 1){
-                    Acnr.add(map.get("CNR"));
-                    Aroom.add(map.get("Room"));
-                    Adate.add(map.get("Date"));
-                    Alic.add(map.get("ALicence"));
-                    Amobile.add(map.get("AMobile"));
-                    ACstatus.add(map.get("CaseCondition"));
-                    if(condition == 1){
-                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                    }
-                    A_adapter.notifyDataSetChanged();
-
                     statust.setVisibility(View.INVISIBLE);
                     pb.setVisibility(View.INVISIBLE);
                 }
             }
+
             @Override
             public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 Map map = (Map) snapshot.getValue();
                 String check_licence = String.valueOf(map.get("ALicence"));
-                if(check_licence.equals(licence)){
+                if (check_licence.equals(licence)) {
                     int indexx = Acnr.indexOf(map.get("CNR"));
-
                     Acnr.remove(indexx);
                     Aroom.remove(indexx);
                     Adate.remove(indexx);
                     Alic.remove(indexx);
                     ACstatus.remove(indexx);
-//                    Acnr.indexOf(map.get("CNR"));
+
                     Acnr.add(map.get("CNR"));
                     Aroom.add(map.get("Room"));
                     Adate.add(map.get("Date"));
@@ -176,10 +163,9 @@ public class advocate extends AppCompatActivity {
                     Amobile.add(map.get("AMobile"));
                     ACstatus.add(map.get("CaseCondition"));
                     int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
-                    if(condition == 1){
+                    if (condition == 1) {
                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                     }
-
                     A_adapter.notifyDataSetChanged();
 
                     statust.setVisibility(View.INVISIBLE);
@@ -209,14 +195,14 @@ public class advocate extends AppCompatActivity {
             public void onClick(View view) {
                 statust.setText("");
                 statust.setVisibility(View.INVISIBLE);
-                SharedPreferences sp = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+                SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
-                editor.putString("Login","false");
-                editor.putString("UserName","");
-                editor.putString("Licence","");
+                editor.putString("Login", "false");
+                editor.putString("UserName", "");
+                editor.putString("Licence", "");
                 editor.apply();
 
-                Intent logOUT = new Intent(advocate.this,MainActivity.class);
+                Intent logOUT = new Intent(advocate.this, MainActivity.class);
                 startActivity(logOUT);
                 finish();
 
@@ -224,6 +210,7 @@ public class advocate extends AppCompatActivity {
         });
 
     }
+
     //    Creating Notification
     private void createNotificationChannel() {
         String CHANNEL_ID = "com.nimeshkadecha.e_pokerWeb";
@@ -243,7 +230,7 @@ public class advocate extends AppCompatActivity {
         }
     }
 
-    private void callNotification(String cnr,String room) {
+    private void callNotification(String cnr, String room) {
         Random r = new Random();
         int id = r.nextInt(99);
         String CHANNEL_ID = "com.nimeshkadecha.e_pokerWeb";
@@ -253,8 +240,8 @@ public class advocate extends AppCompatActivity {
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID).setSmallIcon(R.drawable.toolbarlogo)
-                .setContentTitle("Call for CNR = "+cnr)
-                .setContentText("call room = "+ room)
+                .setContentTitle("Call for CNR = " + cnr)
+                .setContentText("call room = " + room)
                 .setPriority(NotificationCompat.PRIORITY_MAX)
                 // Set the intent that will fire when the user taps the notification
                 .setContentIntent(pendingIntent).setAutoCancel(true);
