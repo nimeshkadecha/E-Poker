@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapter.viewHolder> {
     private Context context;
@@ -42,6 +43,7 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
         holder.AAlictv.setText(String.valueOf(alic.get(position)));
         holder.AAmobtv.setText(String.valueOf(amobile.get(position)));
         int x = Integer.parseInt(String.valueOf(astatus.get(position)));
+        
         if(x == 0){
             holder.newimg.setVisibility(View.VISIBLE);
             holder.calledimg.setVisibility(View.INVISIBLE);
@@ -74,9 +76,11 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
             ACdatetv = itemView.findViewById(R.id.ACdate);
             AAlictv = itemView.findViewById(R.id.AAlic);
             AAmobtv = itemView.findViewById(R.id.AAmob);
+
             newimg = itemView.findViewById(R.id.imgNew);
             calledimg = itemView.findViewById(R.id.imgcall);
             completeimg = itemView.findViewById(R.id.imgcompleted);
+
             newimg.setVisibility(View.INVISIBLE);
             calledimg.setVisibility(View.INVISIBLE);
             completeimg.setVisibility(View.INVISIBLE);

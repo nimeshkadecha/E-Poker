@@ -33,6 +33,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Map;
 import java.util.Random;
 
@@ -107,7 +108,13 @@ public class advocate extends AppCompatActivity {
         AdvocateRec = findViewById(R.id.AdvocateRec);
         A_adapter = new AdvocateCaseAdapter(this, Acnr, Aroom, Adate, Alic, Amobile,ACstatus);
         AdvocateRec.setAdapter(A_adapter);
-        AdvocateRec.setLayoutManager(new LinearLayoutManager(this));
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+
+        linearLayoutManager.setReverseLayout(true);
+        linearLayoutManager.setStackFromEnd(true);
+        AdvocateRec.setLayoutManager(linearLayoutManager);
+//        AdvocateRec.setLayoutManager(new LinearLayoutManager(this));
+
 
         DatabaseReference reference;
         reference = FirebaseDatabase.getInstance().getReference();
@@ -117,14 +124,29 @@ public class advocate extends AppCompatActivity {
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 Map map = (Map) snapshot.getValue();
                 String check_licence = String.valueOf(map.get("ALicence"));
-                if(check_licence.equals(licence)){
+                int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
+                if(check_licence.equals(licence) && condition == 0){
                     Acnr.add(map.get("CNR"));
                     Aroom.add(map.get("Room"));
                     Adate.add(map.get("Date"));
                     Alic.add(map.get("ALicence"));
                     Amobile.add(map.get("AMobile"));
                     ACstatus.add(map.get("CaseCondition"));
-                    int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
+                    if(condition == 1){
+                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                    }
+                    A_adapter.notifyDataSetChanged();
+
+                    statust.setVisibility(View.INVISIBLE);
+                    pb.setVisibility(View.INVISIBLE);
+                }
+                if(check_licence.equals(licence) && condition == 1){
+                    Acnr.add(map.get("CNR"));
+                    Aroom.add(map.get("Room"));
+                    Adate.add(map.get("Date"));
+                    Alic.add(map.get("ALicence"));
+                    Amobile.add(map.get("AMobile"));
+                    ACstatus.add(map.get("CaseCondition"));
                     if(condition == 1){
                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                     }
@@ -140,6 +162,7 @@ public class advocate extends AppCompatActivity {
                 String check_licence = String.valueOf(map.get("ALicence"));
                 if(check_licence.equals(licence)){
                     int indexx = Acnr.indexOf(map.get("CNR"));
+
                     Acnr.remove(indexx);
                     Aroom.remove(indexx);
                     Adate.remove(indexx);
