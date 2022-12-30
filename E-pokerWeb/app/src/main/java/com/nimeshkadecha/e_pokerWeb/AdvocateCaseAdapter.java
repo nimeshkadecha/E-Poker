@@ -28,66 +28,6 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
         this.amobile = amobile;
         this.astatus = astatus;
     }
-
-    public ArrayList getAcnr() {
-        return acnr;
-    }
-
-    public void setAcnr(ArrayList acnr) {
-        this.acnr = acnr;
-    }
-
-    public ArrayList getAroom() {
-        return aroom;
-    }
-
-    public void setAroom(ArrayList aroom) {
-        this.aroom = aroom;
-    }
-
-    public ArrayList getAdate() {
-        return adate;
-    }
-
-    public void setAdate(ArrayList adate) {
-        this.adate = adate;
-    }
-
-    public ArrayList getAlic() {
-        return alic;
-    }
-
-    public void setAlic(ArrayList alic) {
-        this.alic = alic;
-    }
-
-    public ArrayList getAmobile() {
-        return amobile;
-    }
-
-    public void setAmobile(ArrayList amobile) {
-        this.amobile = amobile;
-    }
-
-    public ArrayList getAstatus() {
-        return astatus;
-    }
-
-    public void setAstatus(ArrayList astatus) {
-        this.astatus = astatus;
-    }
-
-    public static Comparator<AdvocateCaseAdapter> ordered = new Comparator<AdvocateCaseAdapter>() {
-        @Override
-        public int compare(AdvocateCaseAdapter c1, AdvocateCaseAdapter c2) {
-            if(Integer.parseInt(String.valueOf(c1.getAstatus())) < Integer.parseInt(String.valueOf(c2.getAstatus()))){
-                return Integer.parseInt(String.valueOf(c1.getAstatus()));
-            }else{
-                return 0;
-            }
-        }
-    };
-
     @NonNull
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -109,7 +49,7 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
             holder.calledimg.setVisibility(View.INVISIBLE);
             holder.completeimg.setVisibility(View.INVISIBLE);
         }else if(x == 1){
-            Log.d("ENimesh","INDEXXX = "+x);
+//            Log.d("ENimesh","INDEXXX = "+x);
             holder.newimg.setVisibility(View.INVISIBLE);
             holder.calledimg.setVisibility(View.VISIBLE);
             holder.completeimg.setVisibility(View.INVISIBLE);

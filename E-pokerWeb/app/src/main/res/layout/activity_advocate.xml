@@ -11,12 +11,53 @@
         android:id="@+id/AdvocateRec"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoutAdvocate"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
         tools:ignore="MissingConstraints" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutName"
+        style="@style/TextInputLayout"
+        android:layout_width="280dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:hint="Search CNR Number"
+        app:endIconMode="clear_text"
+        android:layout_marginStart="10dp"
+        app:helperTextTextColor="@color/design_default_color_error"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoutAdvocate"
+        app:startIconDrawable="@android:drawable/ic_menu_search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CNRSearchET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="#757575"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/SearchCNRbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayoutName"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayoutName"
+        app:layout_constraintTop_toTopOf="@+id/textInputLayoutName" />
+    <Button
+        android:id="@+id/cancleSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cance"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayoutName"
+        app:layout_constraintStart_toEndOf="@+id/textInputLayoutName"
+        app:layout_constraintTop_toTopOf="@+id/textInputLayoutName" />
 
     <TextView
         android:id="@+id/statustv"
@@ -46,11 +87,10 @@
         android:id="@+id/roomCase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/button"
-        android:text="Room case"
-        android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
+        android:background="@drawable/button"
+        android:text="Room case"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -67,4 +107,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="100dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roomCase" />
 </androidx.constraintlayout.widget.ConstraintLayout>
