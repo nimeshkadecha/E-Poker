@@ -55,7 +55,7 @@ public class advocate extends AppCompatActivity {
 
     private Spinner spinner;
 
-    private Button logOut, roomCase,search,cancle;
+    private Button logOut, roomCase, search, cancle;
 
     private EditText searchet;
 
@@ -159,12 +159,17 @@ public class advocate extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
                 String value = adapterView.getItemAtPosition(position).toString();
                 customize[0] = value;
+
+
+                Log.d("ENimesh", "REMOVED EVERYTING");
                 Acnr.removeAll(Acnr);
                 Aroom.removeAll(Aroom);
                 Adate.removeAll(Adate);
                 Alic.removeAll(Alic);
                 Amobile.removeAll(Amobile);
                 ACstatus.removeAll(ACstatus);
+
+                A_adapter.notifyDataSetChanged();
 
                 DatabaseReference reference;
                 reference = FirebaseDatabase.getInstance().getReference();
@@ -174,6 +179,8 @@ public class advocate extends AppCompatActivity {
                     public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                         Map map = (Map) snapshot.getValue();
 //                Log.d("ENimesh","length = " + map.size());
+                        int indexx = Acnr.indexOf(map.get("CNR"));
+//                        Log.d("ENimesh","CHECKEER =" + indexx);
                         String check_licence = String.valueOf(map.get("ALicence"));
                         int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
                         String date = String.valueOf(map.get("Date"));
@@ -181,6 +188,7 @@ public class advocate extends AppCompatActivity {
                         if (check_licence.equals(licence)) {
                             if (customize[0].equals("Today")) {
                                 if (date.equals(formattedDate)) {
+
                                     Acnr.add(map.get("CNR"));
                                     Aroom.add(map.get("Room"));
                                     Adate.add(map.get("Date"));
@@ -250,18 +258,7 @@ public class advocate extends AppCompatActivity {
                                     pb.setVisibility(View.INVISIBLE);
                                 }
                             } else {
-                                Acnr.add(map.get("CNR"));
-                                Aroom.add(map.get("Room"));
-                                Adate.add(map.get("Date"));
-                                Alic.add(map.get("ALicence"));
-                                Amobile.add(map.get("AMobile"));
-                                ACstatus.add(map.get("CaseCondition"));
-                                if (condition == 1) {
-                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                                }
-                                A_adapter.notifyDataSetChanged();
-                                statust.setVisibility(View.INVISIBLE);
-                                pb.setVisibility(View.INVISIBLE);
+                                Log.d("ENImesh", "CALLED ELSE!!!🚀");
                             }
                         }
                     }
@@ -272,38 +269,11 @@ public class advocate extends AppCompatActivity {
                         String check_licence = String.valueOf(map.get("ALicence"));
                         String date = String.valueOf(map.get("Date"));
                         int indexx = Acnr.indexOf(map.get("CNR"));
+                        Log.d("ENimesh", "indexx =" + indexx);
                         int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
-
-                        if (check_licence.equals(licence)) {
-                            if (customize[0].equals("Today")) {
-                                if (date.equals(formattedDate)) {
-                                    Acnr.remove(indexx);
-                                    Aroom.remove(indexx);
-                                    Adate.remove(indexx);
-                                    Alic.remove(indexx);
-                                    ACstatus.remove(indexx);
-
-                                    Acnr.add(map.get("CNR"));
-                                    Aroom.add(map.get("Room"));
-                                    Adate.add(map.get("Date"));
-                                    Alic.add(map.get("ALicence"));
-                                    Amobile.add(map.get("AMobile"));
-                                    ACstatus.add(map.get("CaseCondition"));
-                                    if (condition == 1) {
-                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                                    }
-                                    A_adapter.notifyDataSetChanged();
-
-                                    statust.setVisibility(View.INVISIBLE);
-                                    pb.setVisibility(View.INVISIBLE);
-                                }
-                            } else if (customize[0].equals("All")) {
-                                Acnr.remove(indexx);
-                                Aroom.remove(indexx);
-                                Adate.remove(indexx);
-                                Alic.remove(indexx);
-                                ACstatus.remove(indexx);
-
+                        if (indexx < 0) {
+                            Log.d("ENimesh","Not in list");
+                            if (condition == 0 && customize[0].equals("NEW")) {
                                 Acnr.add(map.get("CNR"));
                                 Aroom.add(map.get("Room"));
                                 Adate.add(map.get("Date"));
@@ -317,93 +287,197 @@ public class advocate extends AppCompatActivity {
 
                                 statust.setVisibility(View.INVISIBLE);
                                 pb.setVisibility(View.INVISIBLE);
-                            } else if (customize[0].equals("called")) {
+                            } else if (condition == 1 && customize[0].equals("Called")) {
+                                Acnr.add(map.get("CNR"));
+                                Aroom.add(map.get("Room"));
+                                Adate.add(map.get("Date"));
+                                Alic.add(map.get("ALicence"));
+                                Amobile.add(map.get("AMobile"));
+                                ACstatus.add(map.get("CaseCondition"));
                                 if (condition == 1) {
-                                    Acnr.remove(indexx);
-                                    Aroom.remove(indexx);
-                                    Adate.remove(indexx);
-                                    Alic.remove(indexx);
-                                    ACstatus.remove(indexx);
-
-                                    Acnr.add(map.get("CNR"));
-                                    Aroom.add(map.get("Room"));
-                                    Adate.add(map.get("Date"));
-                                    Alic.add(map.get("ALicence"));
-                                    Amobile.add(map.get("AMobile"));
-                                    ACstatus.add(map.get("CaseCondition"));
-//                            Always call
                                     callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-
-                                    A_adapter.notifyDataSetChanged();
-
-                                    statust.setVisibility(View.INVISIBLE);
-                                    pb.setVisibility(View.INVISIBLE);
                                 }
-                            } else if (customize[0].equals("Completed")) {
-                                if (condition == 2) {
-                                    Acnr.remove(indexx);
-                                    Aroom.remove(indexx);
-                                    Adate.remove(indexx);
-                                    Alic.remove(indexx);
-                                    ACstatus.remove(indexx);
-
-                                    Acnr.add(map.get("CNR"));
-                                    Aroom.add(map.get("Room"));
-                                    Adate.add(map.get("Date"));
-                                    Alic.add(map.get("ALicence"));
-                                    Amobile.add(map.get("AMobile"));
-                                    ACstatus.add(map.get("CaseCondition"));
-                                    if (condition == 1) {
-                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                                    }
-                                    A_adapter.notifyDataSetChanged();
-
-                                    statust.setVisibility(View.INVISIBLE);
-                                    pb.setVisibility(View.INVISIBLE);
+                                A_adapter.notifyDataSetChanged();
+                            } else if (condition == 2 && customize[0].equals("Completed")) {
+                                Acnr.add(map.get("CNR"));
+                                Aroom.add(map.get("Room"));
+                                Adate.add(map.get("Date"));
+                                Alic.add(map.get("ALicence"));
+                                Amobile.add(map.get("AMobile"));
+                                ACstatus.add(map.get("CaseCondition"));
+                                if (condition == 1) {
+                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                 }
-                            } else if (customize[0].equals("New")) {
-                                if (condition == 0) {
-                                    Acnr.remove(indexx);
-                                    Aroom.remove(indexx);
-                                    Adate.remove(indexx);
-                                    Alic.remove(indexx);
-                                    ACstatus.remove(indexx);
-
-                                    Acnr.add(map.get("CNR"));
-                                    Aroom.add(map.get("Room"));
-                                    Adate.add(map.get("Date"));
-                                    Alic.add(map.get("ALicence"));
-                                    Amobile.add(map.get("AMobile"));
-                                    ACstatus.add(map.get("CaseCondition"));
-                                    if (condition == 1) {
-                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                                    }
-                                    A_adapter.notifyDataSetChanged();
-
-                                    statust.setVisibility(View.INVISIBLE);
-                                    pb.setVisibility(View.INVISIBLE);
+                                A_adapter.notifyDataSetChanged();
+                            } else if (date.equals(formattedDate) && customize[0].equals("Today")) {
+                                Acnr.add(map.get("CNR"));
+                                Aroom.add(map.get("Room"));
+                                Adate.add(map.get("Date"));
+                                Alic.add(map.get("ALicence"));
+                                Amobile.add(map.get("AMobile"));
+                                ACstatus.add(map.get("CaseCondition"));
+                                if (condition == 1) {
+                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                 }
+                                A_adapter.notifyDataSetChanged();
                             } else {
-                                Acnr.remove(indexx);
-                                Aroom.remove(indexx);
-                                Adate.remove(indexx);
-                                Alic.remove(indexx);
-                                ACstatus.remove(indexx);
 
-                                Acnr.add(map.get("CNR"));
-                                Aroom.add(map.get("Room"));
-                                Adate.add(map.get("Date"));
-                                Alic.add(map.get("ALicence"));
-                                Amobile.add(map.get("AMobile"));
-                                ACstatus.add(map.get("CaseCondition"));
-                                if (condition == 1) {
-                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                                }
-                                A_adapter.notifyDataSetChanged();
-
-                                statust.setVisibility(View.INVISIBLE);
-                                pb.setVisibility(View.INVISIBLE);
                             }
+                            statust.setVisibility(View.INVISIBLE);
+                            pb.setVisibility(View.INVISIBLE);
+                        } else {
+                            if (check_licence.equals(licence)) {
+                                if (!date.equals(formattedDate)) {
+                                    Log.d("ENimesh", "REMOVING");
+                                    Acnr.remove(indexx);
+                                    Aroom.remove(indexx);
+                                    Adate.remove(indexx);
+                                    Alic.remove(indexx);
+                                    ACstatus.remove(indexx);
+                                    A_adapter.notifyDataSetChanged();
+                                }
+                                if (customize[0].equals("Today")) {
+                                    if (date.equals(formattedDate)) {
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        Acnr.add(map.get("CNR"));
+                                        Aroom.add(map.get("Room"));
+                                        Adate.add(map.get("Date"));
+                                        Alic.add(map.get("ALicence"));
+                                        Amobile.add(map.get("AMobile"));
+                                        ACstatus.add(map.get("CaseCondition"));
+                                        if (condition == 1) {
+                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                        }
+                                        A_adapter.notifyDataSetChanged();
+
+                                        statust.setVisibility(View.INVISIBLE);
+                                        pb.setVisibility(View.INVISIBLE);
+                                    }
+                                } else if (customize[0].equals("All")) {
+                                    Acnr.remove(indexx);
+                                    Aroom.remove(indexx);
+                                    Adate.remove(indexx);
+                                    Alic.remove(indexx);
+                                    ACstatus.remove(indexx);
+
+                                    Acnr.add(map.get("CNR"));
+                                    Aroom.add(map.get("Room"));
+                                    Adate.add(map.get("Date"));
+                                    Alic.add(map.get("ALicence"));
+                                    Amobile.add(map.get("AMobile"));
+                                    ACstatus.add(map.get("CaseCondition"));
+                                    if (condition == 1) {
+                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                    }
+                                    A_adapter.notifyDataSetChanged();
+
+                                    statust.setVisibility(View.INVISIBLE);
+                                    pb.setVisibility(View.INVISIBLE);
+                                } else if (customize[0].equals("Called")) {
+                                    Log.d("ENimesh", "CALLED CALL");
+                                    if (condition == 1) {
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        Acnr.add(map.get("CNR"));
+                                        Aroom.add(map.get("Room"));
+                                        Adate.add(map.get("Date"));
+                                        Alic.add(map.get("ALicence"));
+                                        Amobile.add(map.get("AMobile"));
+                                        ACstatus.add(map.get("CaseCondition"));
+//                            Always call
+                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+
+                                        A_adapter.notifyDataSetChanged();
+
+                                        statust.setVisibility(View.INVISIBLE);
+                                        pb.setVisibility(View.INVISIBLE);
+                                    } else {
+                                        Log.d("ENimesh", "IMP CALLLES");
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        A_adapter.notifyDataSetChanged();
+                                    }
+                                } else if (customize[0].equals("Completed")) {
+                                    Log.d("ENimesh", "Completed CALL");
+                                    if (condition == 2) {
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        Acnr.add(map.get("CNR"));
+                                        Aroom.add(map.get("Room"));
+                                        Adate.add(map.get("Date"));
+                                        Alic.add(map.get("ALicence"));
+                                        Amobile.add(map.get("AMobile"));
+                                        ACstatus.add(map.get("CaseCondition"));
+
+                                        A_adapter.notifyDataSetChanged();
+
+                                        statust.setVisibility(View.INVISIBLE);
+                                        pb.setVisibility(View.INVISIBLE);
+                                    } else {
+                                        Log.d("ENimesh", "IMP Completed");
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        A_adapter.notifyDataSetChanged();
+                                    }
+                                } else if (customize[0].equals("New")) {
+                                    if (condition == 0) {
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        Acnr.add(map.get("CNR"));
+                                        Aroom.add(map.get("Room"));
+                                        Adate.add(map.get("Date"));
+                                        Alic.add(map.get("ALicence"));
+                                        Amobile.add(map.get("AMobile"));
+                                        ACstatus.add(map.get("CaseCondition"));
+                                        if (condition == 1) {
+                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                        }
+                                        A_adapter.notifyDataSetChanged();
+
+                                        statust.setVisibility(View.INVISIBLE);
+                                        pb.setVisibility(View.INVISIBLE);
+                                    } else {
+                                        Log.d("ENimesh", "IMP New remover");
+                                        Acnr.remove(indexx);
+                                        Aroom.remove(indexx);
+                                        Adate.remove(indexx);
+                                        Alic.remove(indexx);
+                                        ACstatus.remove(indexx);
+
+                                        A_adapter.notifyDataSetChanged();
+                                    }
+                                } else {
+                                    Log.d("ENImesh", "CALLED ELSE!!!🚀");
+                                    statust.setVisibility(View.INVISIBLE);
+                                    pb.setVisibility(View.INVISIBLE);
+                                }
+                            }
+
                         }
                     }
 
@@ -446,16 +520,16 @@ public class advocate extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String searchString = searchet.getText().toString();
-                if(searchString.equals("")){
+                if (searchString.equals("")) {
                     searchet.setError("Enter CNR number to search");
-                }else{
+                } else {
                     Acnr.removeAll(Acnr);
                     Aroom.removeAll(Aroom);
                     Adate.removeAll(Adate);
                     Alic.removeAll(Alic);
                     Amobile.removeAll(Amobile);
                     ACstatus.removeAll(ACstatus);
-                    DatabaseReference referenceCNR ;
+                    DatabaseReference referenceCNR;
                     referenceCNR = FirebaseDatabase.getInstance().getReference();
                     referenceCNR.child("case").addChildEventListener(new ChildEventListener() {
                         @Override
@@ -465,7 +539,38 @@ public class advocate extends AppCompatActivity {
                             String dbCNR = String.valueOf(map.get("CNR"));
                             int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
                             if (check_licence.equals(licence)) {
-                                if(searchString.equals(dbCNR)){
+                                if (searchString.equalsIgnoreCase(dbCNR)) {
+                                    Acnr.add(map.get("CNR"));
+                                    Aroom.add(map.get("Room"));
+                                    Adate.add(map.get("Date"));
+                                    Alic.add(map.get("ALicence"));
+                                    Amobile.add(map.get("AMobile"));
+                                    ACstatus.add(map.get("CaseCondition"));
+                                    if (condition == 1) {
+                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                    }
+                                    A_adapter.notifyDataSetChanged();
+                                    statust.setVisibility(View.INVISIBLE);
+                                    pb.setVisibility(View.INVISIBLE);
+                                }
+                            }
+                        }
+
+                        @Override
+                        public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                            Acnr.removeAll(Acnr);
+                            Aroom.removeAll(Aroom);
+                            Adate.removeAll(Adate);
+                            Alic.removeAll(Alic);
+                            Amobile.removeAll(Amobile);
+                            ACstatus.removeAll(ACstatus);
+
+                            Map map = (Map) snapshot.getValue();
+                            String check_licence = String.valueOf(map.get("ALicence"));
+                            String dbCNR = String.valueOf(map.get("CNR"));
+                            int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
+                            if (check_licence.equals(licence)) {
+                                if (searchString.equalsIgnoreCase(dbCNR)) {
                                     Acnr.add(map.get("CNR"));
                                     Aroom.add(map.get("Room"));
                                     Adate.add(map.get("Date"));
@@ -483,12 +588,6 @@ public class advocate extends AppCompatActivity {
                                     search.setVisibility(View.INVISIBLE);
                                 }
                             }
-
-                        }
-
-                        @Override
-                        public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
                         }
 
                         @Override
@@ -507,60 +606,6 @@ public class advocate extends AppCompatActivity {
                         }
                     });
                 }
-            }
-        });
-
-        cancle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                cancle.setVisibility(View.INVISIBLE);
-                search.setVisibility(View.VISIBLE);
-
-                DatabaseReference referencecancle;
-                referencecancle = FirebaseDatabase.getInstance().getReference();
-
-                referencecancle.child("case").addChildEventListener(new ChildEventListener() {
-                    @Override
-                    public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                        Map map = (Map) snapshot.getValue();
-                        String check_licence = String.valueOf(map.get("ALicence"));
-                        int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
-                        if (check_licence.equals(licence)) {
-                            Acnr.add(map.get("CNR"));
-                            Aroom.add(map.get("Room"));
-                            Adate.add(map.get("Date"));
-                            Alic.add(map.get("ALicence"));
-                            Amobile.add(map.get("AMobile"));
-                            ACstatus.add(map.get("CaseCondition"));
-                            if (condition == 1) {
-                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
-                            }
-                            A_adapter.notifyDataSetChanged();
-                            statust.setVisibility(View.INVISIBLE);
-                            pb.setVisibility(View.INVISIBLE);
-                        }
-                    }
-
-                    @Override
-                    public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-                    }
-
-                    @Override
-                    public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-
-                    }
-
-                    @Override
-                    public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-
-                    }
-                });
             }
         });
 //        _-------------------------------------------------searchwork end---------
