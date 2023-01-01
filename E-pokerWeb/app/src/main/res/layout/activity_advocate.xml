@@ -21,6 +21,14 @@
         android:background="#03A9F4"
        >
 
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_marginStart="5dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            app:srcCompat="@drawable/ic_baseline_storage_24" />
+
         <TextView
             android:textColor="@color/white"
             android:id="@+id/actionbarText"
@@ -43,13 +51,14 @@
 
         <Spinner
             android:id="@+id/spinner"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:backgroundTint="@color/white"
             android:scrollbarStyle="outsideOverlay"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
     </LinearLayout>
 
 <LinearLayout
@@ -85,6 +94,15 @@
         android:layout_marginStart="3dp"
         android:textSize="12dp"
         android:text="@string/searchbar"    />
+    <Button
+        android:id="@+id/cancleSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"
+        android:textSize="12dp"
+        android:text="Cancle"
+        android:visibility="gone"/>
 
 </LinearLayout>
 
@@ -139,15 +157,6 @@
             android:layout_marginTop="5dp"
             android:textColor="#ffffff" />
 
-        <Button
-            android:id="@+id/cancleSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:background="@drawable/button"
-            android:text="Cancel"
-            android:visibility="gone"
-          />
     </LinearLayout>
 
 </LinearLayout>

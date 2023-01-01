@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.text.InputFilter;
+import android.text.Spanned;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -42,6 +44,14 @@ public class roomCase extends AppCompatActivity {
 
         searchRoomet = findViewById(R.id.searchRoomCase);
         search = findViewById(R.id.searchRoombtn);
+        searchRoomet.setFilters(new InputFilter[] {
+                new InputFilter.AllCaps() {
+                    @Override
+                    public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+                        return String.valueOf(source).toLowerCase();
+                    }
+                }
+        });
 
         searchStatus = findViewById(R.id.statusRoomCase);
 
@@ -86,7 +96,7 @@ public class roomCase extends AppCompatActivity {
                         public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                             Map map = (Map) snapshot.getValue();
                             String dbroom = String.valueOf(map.get("Room"));
-                            if(dbroom.equalsIgnoreCase(room)){
+                            if(dbroom.contains(room)){
                                 Acnr.add(map.get("CNR"));
                                 Aroom.add(map.get("Room"));
                                 Adate.add(map.get("Date"));
