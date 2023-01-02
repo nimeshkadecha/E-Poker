@@ -675,7 +675,7 @@ public class advocate extends AppCompatActivity {
                                     Alic.add(map.get("ALicence"));
                                     Amobile.add(map.get("AMobile"));
                                     ACstatus.add(map.get("CaseCondition"));
-                                    search.setVisibility(View.INVISIBLE);
+                                    search.setVisibility(View.GONE);
                                     cancle.setVisibility(View.VISIBLE);
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
