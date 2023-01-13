@@ -52,7 +52,7 @@ public class advocate extends AppCompatActivity {
 
     private RecyclerView AdvocateRec;
 
-    private TextView statust;
+    private TextView statust,statust2;
 
     private ProgressBar pb;
 
@@ -73,7 +73,6 @@ public class advocate extends AppCompatActivity {
     private ArrayList TAcnr, TAroom, TAdate, TAlic, TAmobile, TACstatus;
 
     AdvocateCaseAdapter A_adapter;
-    AdvocateCaseAdapter TA_adapter;
 
     String[] shorting = {"Today", "All", "Called", "Completed", "New"};
 
@@ -110,6 +109,7 @@ public class advocate extends AppCompatActivity {
         createNotificationChannel();
 
         statust = findViewById(R.id.statustv);
+        statust2 = findViewById(R.id.statustv2);
 
         pb = findViewById(R.id.PlodingAdvocate);
         pb.setVisibility(View.VISIBLE);
@@ -198,7 +198,7 @@ public class advocate extends AppCompatActivity {
                     public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                         Map map = (Map) snapshot.getValue();
 //                Log.d("ENimesh","length = " + map.size());
-                        int indexx = Acnr.indexOf(map.get("CNR"));
+//                        int indexx = Acnr.indexOf(map.get("CNR"));
 //                        Log.d("ENimesh","CHECKEER =" + indexx);
                         String check_licence = String.valueOf(map.get("ALicence"));
                         int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
@@ -222,6 +222,10 @@ public class advocate extends AppCompatActivity {
                                     }
                                     A_adapter.notifyDataSetChanged();
                                     statust.setVisibility(View.INVISIBLE);
+                                    pb.setVisibility(View.INVISIBLE);
+                                }else{
+                                    statust2.setText("No Case Today");
+                                    statust2.setVisibility(View.VISIBLE);
                                     pb.setVisibility(View.INVISIBLE);
                                 }
                             } else if (customize[0].equals("All")) {

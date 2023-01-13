@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -34,7 +35,7 @@ public class roomCase extends AppCompatActivity {
     roomCaseAdapter RoomCase_adapter;
 
     private EditText searchRoomet ;
-    private Button search;
+    private Button search,cancle;
     private TextView searchStatus;
 
     @Override
@@ -44,6 +45,25 @@ public class roomCase extends AppCompatActivity {
 
         searchRoomet = findViewById(R.id.searchRoomCase);
         search = findViewById(R.id.searchRoombtn);
+
+        cancle = findViewById(R.id.CancleRoomCase);
+        cancle.setVisibility(View.GONE);
+        cancle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                cancle.setVisibility(View.GONE);
+                search.setVisibility(View.VISIBLE);
+                Acnr.removeAll(Acnr);
+                Aroom.removeAll(Aroom);
+                Adate.removeAll(Adate);
+                Alic.removeAll(Alic);
+                Amobile.removeAll(Amobile);
+                ACstatus.removeAll(ACstatus);
+                Toast.makeText(roomCase.this, "Cancled", Toast.LENGTH_SHORT).show();
+                RoomCase_adapter.notifyDataSetChanged();
+            }
+        });
+
         searchRoomet.setFilters(new InputFilter[] {
                 new InputFilter.AllCaps() {
                     @Override
@@ -72,6 +92,8 @@ public class roomCase extends AppCompatActivity {
                     searchRoomet.setError("Enter Room name to see List");
                     searchStatus.setText("Enter Room name");
                 }else{
+                    cancle.setVisibility(View.VISIBLE);
+                    search.setVisibility(View.GONE);
                     search_status[0] = 1;
                     searchStatus.setText("");
 
