@@ -222,6 +222,7 @@ public class advocate extends AppCompatActivity {
                                     }
                                     A_adapter.notifyDataSetChanged();
                                     statust.setVisibility(View.INVISIBLE);
+                                    statust2.setVisibility(View.INVISIBLE);
                                     pb.setVisibility(View.INVISIBLE);
                                 }else{
                                     statust2.setText("No Case Today");
