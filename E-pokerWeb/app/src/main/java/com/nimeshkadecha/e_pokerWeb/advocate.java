@@ -1,9 +1,11 @@
 package com.nimeshkadecha.e_pokerWeb;
 
+import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
@@ -54,7 +56,7 @@ public class advocate extends AppCompatActivity {
 
     private RecyclerView AdvocateRec;
 
-    private TextView statust,statust2;
+    private TextView statust, statust2;
 
     private ProgressBar pb;
 
@@ -269,7 +271,7 @@ public class advocate extends AppCompatActivity {
                                     ACstatus.add(map.get("CaseCondition"));
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                            notified.put(String.valueOf(map.get("CNR")),1);
+                                            notified.put(String.valueOf(map.get("CNR")), 1);
                                             callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
@@ -277,7 +279,7 @@ public class advocate extends AppCompatActivity {
                                     statust.setVisibility(View.INVISIBLE);
                                     statust2.setVisibility(View.INVISIBLE);
                                     pb.setVisibility(View.INVISIBLE);
-                                }else{
+                                } else {
                                     statust2.setText("No Case Today");
                                     statust2.setVisibility(View.VISIBLE);
                                     pb.setVisibility(View.INVISIBLE);
@@ -291,7 +293,7 @@ public class advocate extends AppCompatActivity {
                                 ACstatus.add(map.get("CaseCondition"));
                                 if (condition == 1) {
                                     if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                        notified.put(String.valueOf(map.get("CNR")),1);
+                                        notified.put(String.valueOf(map.get("CNR")), 1);
                                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                 }
@@ -309,7 +311,7 @@ public class advocate extends AppCompatActivity {
 //                            Calling notification
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                            notified.put(String.valueOf(map.get("CNR")),1);
+                                            notified.put(String.valueOf(map.get("CNR")), 1);
                                             callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
@@ -339,7 +341,7 @@ public class advocate extends AppCompatActivity {
                                     ACstatus.add(map.get("CaseCondition"));
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                            notified.put(String.valueOf(map.get("CNR")),1);
+                                            notified.put(String.valueOf(map.get("CNR")), 1);
                                             callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
@@ -372,7 +374,7 @@ public class advocate extends AppCompatActivity {
                                 ACstatus.add(map.get("CaseCondition"));
                                 if (condition == 1) {
                                     if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                        notified.put(String.valueOf(map.get("CNR")),1);
+                                        notified.put(String.valueOf(map.get("CNR")), 1);
                                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                 }
@@ -389,7 +391,7 @@ public class advocate extends AppCompatActivity {
                                 ACstatus.add(map.get("CaseCondition"));
                                 if (condition == 1) {
                                     if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                        notified.put(String.valueOf(map.get("CNR")),1);
+                                        notified.put(String.valueOf(map.get("CNR")), 1);
                                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                 }
@@ -403,7 +405,7 @@ public class advocate extends AppCompatActivity {
                                 ACstatus.add(map.get("CaseCondition"));
                                 if (condition == 1) {
                                     if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                        notified.put(String.valueOf(map.get("CNR")),1);
+                                        notified.put(String.valueOf(map.get("CNR")), 1);
                                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                 }
@@ -417,7 +419,7 @@ public class advocate extends AppCompatActivity {
                                 ACstatus.add(map.get("CaseCondition"));
                                 if (condition == 1) {
                                     if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                        notified.put(String.valueOf(map.get("CNR")),1);
+                                        notified.put(String.valueOf(map.get("CNR")), 1);
                                         callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                 }
@@ -454,7 +456,7 @@ public class advocate extends AppCompatActivity {
                                         ACstatus.add(map.get("CaseCondition"));
                                         if (condition == 1) {
                                             if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                                notified.put(String.valueOf(map.get("CNR")),1);
+                                                notified.put(String.valueOf(map.get("CNR")), 1);
                                                 callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
@@ -478,7 +480,7 @@ public class advocate extends AppCompatActivity {
                                     ACstatus.add(map.get("CaseCondition"));
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                            notified.put(String.valueOf(map.get("CNR")),1);
+                                            notified.put(String.valueOf(map.get("CNR")), 1);
                                             callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
@@ -504,7 +506,7 @@ public class advocate extends AppCompatActivity {
 //                            Always call
                                         if (condition == 1) {
                                             if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                                notified.put(String.valueOf(map.get("CNR")),1);
+                                                notified.put(String.valueOf(map.get("CNR")), 1);
                                                 callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
@@ -568,7 +570,7 @@ public class advocate extends AppCompatActivity {
                                         ACstatus.add(map.get("CaseCondition"));
                                         if (condition == 1) {
                                             if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                                notified.put(String.valueOf(map.get("CNR")),1);
+                                                notified.put(String.valueOf(map.get("CNR")), 1);
                                                 callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
@@ -628,7 +630,7 @@ public class advocate extends AppCompatActivity {
         cancle = findViewById(R.id.cancleSearch);
 
         searchet = findViewById(R.id.CNRSearchET);
-        searchet.setFilters(new InputFilter[] {
+        searchet.setFilters(new InputFilter[]{
                 new InputFilter.AllCaps() {
                     @Override
                     public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
@@ -696,7 +698,7 @@ public class advocate extends AppCompatActivity {
                                     cancle.setVisibility(View.VISIBLE);
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                            notified.put(String.valueOf(map.get("CNR")),1);
+                                            notified.put(String.valueOf(map.get("CNR")), 1);
                                             callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
@@ -722,8 +724,8 @@ public class advocate extends AppCompatActivity {
                             String check_licence = String.valueOf(map.get("ALicence"));
                             String dbCNR = String.valueOf(map.get("CNR"));
                             dbCNR.toLowerCase(Locale.ROOT);
-                            Log.d("ENimesh","DB ="+dbCNR);
-                            Log.d("ENimesh","Search ="+searchString);
+                            Log.d("ENimesh", "DB =" + dbCNR);
+                            Log.d("ENimesh", "Search =" + searchString);
                             int condition = Integer.parseInt(String.valueOf(map.get("CaseCondition")));
                             if (check_licence.equals(licence)) {
                                 if (searchString.contains(dbCNR)) {
@@ -737,7 +739,7 @@ public class advocate extends AppCompatActivity {
                                     cancle.setVisibility(View.VISIBLE);
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
-                                            notified.put(String.valueOf(map.get("CNR")),1);
+                                            notified.put(String.valueOf(map.get("CNR")), 1);
                                             callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
@@ -812,6 +814,33 @@ public class advocate extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        Log.d("ENimesh", "status == " + String.valueOf(navagationDrawer.getVisibility()));
+
+        if (String.valueOf(navagationDrawer.getVisibility()).equals("0")) {
+            navagationDrawer.setVisibility(View.GONE);
+        } else {
+            AlertDialog.Builder alert = new AlertDialog.Builder(advocate.this);
+            alert.setTitle("Exit App");
+            alert.setMessage("Confirm Exit");
+            alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    finishAffinity();
+                }
+            });
+            alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            });
+
+            alert.show();
+        }
     }
 
     //    Creating Notification
