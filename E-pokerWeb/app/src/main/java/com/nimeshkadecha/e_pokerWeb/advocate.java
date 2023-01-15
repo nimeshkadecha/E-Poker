@@ -18,6 +18,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -49,6 +50,7 @@ import java.util.Random;
 
 public class advocate extends AppCompatActivity {
 
+    private ImageView menu, backBtn;
 
     private RecyclerView AdvocateRec;
 
@@ -57,6 +59,8 @@ public class advocate extends AppCompatActivity {
     private ProgressBar pb;
 
     private Spinner spinner;
+
+    private View navagationDrawer;
 
     private Button logOut, roomCase, search, cancle;
 
@@ -105,15 +109,56 @@ public class advocate extends AppCompatActivity {
 
 //        Removing Suport bar / top line containing name
         Objects.requireNonNull(getSupportActionBar()).hide();
+        //        Hiding navigationgrawer
+        navagationDrawer = findViewById(R.id.navagationDroweer);
+        navagationDrawer.setVisibility(View.GONE);
 
-        createNotificationChannel();
+//        FINDING menu
+        menu = findViewById(R.id.menu);
 
-        statust = findViewById(R.id.statustv);
-        statust2 = findViewById(R.id.statustv2);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navagationDrawer.setVisibility(View.VISIBLE);
+            }
+        });
 
-        pb = findViewById(R.id.PlodingAdvocate);
-        pb.setVisibility(View.VISIBLE);
+//        FINDING Backbtn
+        backBtn = findViewById(R.id.btnBack);
 
+//        WORKING IN NAVAGATION DRAWER starts  -----------------------------------------------------
+
+//        hiding navagation on back btn click------------
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navagationDrawer.setVisibility(View.GONE);
+            }
+        });
+//        Working with TOOLBAR Ends --------------------------------------------------------------
+
+        logOut = findViewById(R.id.logoutAdvocate);
+
+        logOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                statust.setText("");
+                statust.setVisibility(View.INVISIBLE);
+                SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
+                SharedPreferences.Editor editor = sp.edit();
+                editor.putString("Login", "false");
+                editor.putString("UserName", "");
+                editor.putString("Licence", "");
+                editor.apply();
+
+                Intent logOUT = new Intent(advocate.this, MainActivity.class);
+                startActivity(logOUT);
+                finish();
+
+            }
+        });
+
+//        Working on roomcase ---------------------------------------------------------------
         roomCase = findViewById(R.id.roomCase);
         roomCase.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -123,6 +168,16 @@ public class advocate extends AppCompatActivity {
             }
         });
 
+//        WORKING IN NAVAGATION DRAWER Ends  -----------------------------------------------------
+
+        createNotificationChannel();
+
+        statust = findViewById(R.id.statustv);
+        statust2 = findViewById(R.id.statustv2);
+
+        pb = findViewById(R.id.PlodingAdvocate);
+        pb.setVisibility(View.VISIBLE);
+
         if (checkConnection()) {
             statust.setText("");
             statust.setVisibility(View.INVISIBLE);
@@ -131,8 +186,6 @@ public class advocate extends AppCompatActivity {
             statust.setVisibility(View.VISIBLE);
             statust.setText("No Internet");
         }
-
-        logOut = findViewById(R.id.logoutAdvocate);
 
         //        Getting user email from intent
         Bundle b = getIntent().getExtras();
@@ -717,25 +770,6 @@ public class advocate extends AppCompatActivity {
             }
         });
 //        _-------------------------------------------------searchwork end---------
-
-        logOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                statust.setText("");
-                statust.setVisibility(View.INVISIBLE);
-                SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
-                SharedPreferences.Editor editor = sp.edit();
-                editor.putString("Login", "false");
-                editor.putString("UserName", "");
-                editor.putString("Licence", "");
-                editor.apply();
-
-                Intent logOUT = new Intent(advocate.this, MainActivity.class);
-                startActivity(logOUT);
-                finish();
-
-            }
-        });
 
         cancle.setOnClickListener(new View.OnClickListener() {
             @Override

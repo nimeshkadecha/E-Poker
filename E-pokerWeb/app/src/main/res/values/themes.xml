@@ -18,4 +18,9 @@
         <item name="boxBackgroundColor">#FFFFFF</item>
     </style>
 
+    <style name="Navagation">
+        <item name="android:background">#15E5FF</item>
+        <item name="android:text">@color/black</item>
+    </style>
+
 </resources>

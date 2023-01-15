@@ -22,4 +22,10 @@
         <!--        <item name="editTextColor">#00FF19</item>-->
         <item name="android:layout_marginTop">5dp</item>
     </style>
+
+    <style name="Navagation">
+        <item name="android:background">#15E5FF</item>
+        <item name="android:text">@color/black</item>
+    </style>
+
 </resources>
