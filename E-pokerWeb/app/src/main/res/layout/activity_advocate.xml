@@ -11,8 +11,8 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="#03A9F4"
+        android:layout_height="50dp"
+        android:background="#272727"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,14 +24,15 @@
             android:layout_height="50dp"
             android:layout_gravity="start"
             android:layout_marginStart="5dp"
-            app:srcCompat="@drawable/ic_baseline_storage_24" />
+            app:tint="@color/white"
+            app:srcCompat="@drawable/baseline_menu_24" />
 
         <TextView
             android:id="@+id/actionbarText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:text="Your Cases"
             android:textColor="@color/white"
             android:textSize="22sp" />
@@ -46,11 +47,12 @@
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_marginStart="70dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:backgroundTint="@color/white"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#3c85f2"
+            android:backgroundTintMode="add"
             android:scrollbarStyle="outsideOverlay"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -111,8 +113,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
@@ -120,7 +124,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/AdvocateRec"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             tools:ignore="MissingConstraints" />
 

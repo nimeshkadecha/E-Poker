@@ -49,7 +49,6 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
             holder.calledimg.setVisibility(View.INVISIBLE);
             holder.completeimg.setVisibility(View.INVISIBLE);
         }else if(x == 1){
-//            Log.d("ENimesh","INDEXXX = "+x);
             holder.newimg.setVisibility(View.INVISIBLE);
             holder.calledimg.setVisibility(View.VISIBLE);
             holder.completeimg.setVisibility(View.INVISIBLE);
