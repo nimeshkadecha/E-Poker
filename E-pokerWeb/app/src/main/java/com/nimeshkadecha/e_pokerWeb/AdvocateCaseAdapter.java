@@ -48,14 +48,22 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
             holder.newimg.setVisibility(View.VISIBLE);
             holder.calledimg.setVisibility(View.INVISIBLE);
             holder.completeimg.setVisibility(View.INVISIBLE);
+            holder.warning.setVisibility(View.INVISIBLE);
         }else if(x == 1){
             holder.newimg.setVisibility(View.INVISIBLE);
             holder.calledimg.setVisibility(View.VISIBLE);
             holder.completeimg.setVisibility(View.INVISIBLE);
+            holder.warning.setVisibility(View.INVISIBLE);
         }else if (x == 2){
             holder.newimg.setVisibility(View.INVISIBLE);
             holder.calledimg.setVisibility(View.INVISIBLE);
             holder.completeimg.setVisibility(View.VISIBLE);
+            holder.warning.setVisibility(View.INVISIBLE);
+        } else if (x == 3) {
+            holder.newimg.setVisibility(View.INVISIBLE);
+            holder.calledimg.setVisibility(View.INVISIBLE);
+            holder.completeimg.setVisibility(View.INVISIBLE);
+            holder.warning.setVisibility(View.VISIBLE);
         }
     }
 
@@ -67,7 +75,7 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
     public class viewHolder extends RecyclerView.ViewHolder{
 
         TextView ACcnrtv,ACroomtv,ACdatetv,AAlictv,AAmobtv;
-        ImageView newimg,calledimg,completeimg;
+        ImageView newimg,calledimg,completeimg,warning;
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
@@ -80,10 +88,12 @@ public class AdvocateCaseAdapter extends RecyclerView.Adapter<AdvocateCaseAdapte
             newimg = itemView.findViewById(R.id.imgNew);
             calledimg = itemView.findViewById(R.id.imgcall);
             completeimg = itemView.findViewById(R.id.imgcompleted);
+            warning = itemView.findViewById(R.id.warning);
 
             newimg.setVisibility(View.INVISIBLE);
             calledimg.setVisibility(View.INVISIBLE);
             completeimg.setVisibility(View.INVISIBLE);
+            warning.setVisibility(View.INVISIBLE);
         }
     }
 

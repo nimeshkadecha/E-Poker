@@ -273,14 +273,18 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                     statust.setVisibility(View.INVISIBLE);
@@ -301,14 +305,17 @@ public class advocate extends AppCompatActivity {
                                 if (condition == 1) {
                                     if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                         notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                        callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                        callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }else{
                                         String d = notified.get(String.valueOf(map.get("CNR")));
                                         if(!d.equals(String.valueOf(map.get("Date")))){
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                     }
+                                }
+                                if(condition == 3){
+                                    callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                 }
                                 A_adapter.notifyDataSetChanged();
                                 statust.setVisibility(View.INVISIBLE);
@@ -325,14 +332,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                     statust.setVisibility(View.INVISIBLE);
@@ -361,14 +371,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                     statust.setVisibility(View.INVISIBLE);
@@ -401,14 +414,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
 
@@ -424,14 +440,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                 } else if (condition == 2 && customize[0].equals("Completed")) {
@@ -444,14 +463,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                 } else if (date.equals(formattedDate) && customize[0].equals("Today")) {
@@ -464,14 +486,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                 } else {
@@ -508,15 +533,19 @@ public class advocate extends AppCompatActivity {
                                         if (condition == 1) {
                                             if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }else{
                                                 String d = notified.get(String.valueOf(map.get("CNR")));
                                                 if(!d.equals(String.valueOf(map.get("Date")))){
                                                     notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                    callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                                 }
                                             }
                                         }
+                                        if(condition == 3){
+                                            callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                        }
+
                                         A_adapter.notifyDataSetChanged();
 
                                         statust.setVisibility(View.INVISIBLE);
@@ -538,14 +567,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
 
@@ -570,14 +602,17 @@ public class advocate extends AppCompatActivity {
                                         if (condition == 1) {
                                             if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }else{
                                                 String d = notified.get(String.valueOf(map.get("CNR")));
                                                 if(!d.equals(String.valueOf(map.get("Date")))){
                                                     notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                    callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                                 }
                                             }
+                                        }
+                                        if(condition == 3){
+                                            callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                         A_adapter.notifyDataSetChanged();
 
@@ -640,14 +675,17 @@ public class advocate extends AppCompatActivity {
                                         if (condition == 1) {
                                             if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }else{
                                                 String d = notified.get(String.valueOf(map.get("CNR")));
                                                 if(!d.equals(String.valueOf(map.get("Date")))){
                                                     notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                    callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                    callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                                 }
                                             }
+                                        }
+                                        if(condition == 3){
+                                            callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }
                                         A_adapter.notifyDataSetChanged();
 
@@ -775,14 +813,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     AdvocateRec.setLayoutManager(linearLayoutManager);
 //                                    TA_adapter.notifyDataSetChanged();
@@ -822,14 +863,17 @@ public class advocate extends AppCompatActivity {
                                     if (condition == 1) {
                                         if (!notified.containsKey(String.valueOf(map.get("CNR")))) {
                                             notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                            callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                            callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                         }else{
                                             String d = notified.get(String.valueOf(map.get("CNR")));
                                             if(!d.equals(String.valueOf(map.get("Date")))){
                                                 notified.put(String.valueOf(map.get("CNR")), String.valueOf(map.get("Date")));
-                                                callNotification(String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
+                                                callNotification("Call",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                             }
                                         }
+                                    }
+                                    if(condition == 3){
+                                        callNotification("Warning",String.valueOf(map.get("CNR")), String.valueOf(map.get("Room")));
                                     }
                                     A_adapter.notifyDataSetChanged();
                                     statust.setVisibility(View.INVISIBLE);
@@ -950,7 +994,7 @@ public class advocate extends AppCompatActivity {
         }
     }
 
-    private void callNotification(String cnr, String room) {
+    private void callNotification(String work,String cnr, String room) {
         Random r = new Random();
         int id = r.nextInt(99);
         String CHANNEL_ID = "com.nimeshkadecha.e_pokerWeb";
@@ -960,8 +1004,8 @@ public class advocate extends AppCompatActivity {
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID).setSmallIcon(R.drawable.toolbarlogo)
-                .setContentTitle("Call for CNR = " + cnr)
-                .setContentText("call room = " + room)
+                .setContentTitle(work+" for CNR = " + cnr)
+                .setContentText(work+" room = " + room)
                 .setPriority(NotificationCompat.PRIORITY_MAX)
                 // Set the intent that will fire when the user taps the notification
                 .setContentIntent(pendingIntent).setAutoCancel(true);

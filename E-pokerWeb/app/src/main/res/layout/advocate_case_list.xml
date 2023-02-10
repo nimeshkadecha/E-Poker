@@ -183,4 +183,13 @@
         >
     </ImageView>
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/warning"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/iconmonstr_warning_8" />
+
 </androidx.cardview.widget.CardView>
