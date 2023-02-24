@@ -6,6 +6,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
@@ -22,6 +23,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText email, password;
     private Button login;
-    private TextView register;
+    private TextView register, fp;
     //    Keep user LOGED IN
     public static final String SHARED_PREFS = "sharedPrefs";
     private ProgressBar lodingPB;
@@ -65,10 +67,21 @@ public class MainActivity extends AppCompatActivity {
         createNotificationChannel();
         int netNotificationCount = 0;
 
+        fp = findViewById(R.id.fp);
+
+        fp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(MainActivity.this, FP.class);
+                startActivity(i);
+            }
+        });
+
         boolean net = checkConnection();
-        if(net){
+        if (net) {
             alreadyLogin();
-        }else if(netNotificationCount == 0){
+        } else if (netNotificationCount == 0) {
             Toast.makeText(this, "Please Check your Internet connection", Toast.LENGTH_SHORT).show();
             netNotificationCount++;
         }
@@ -98,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 boolean net = checkConnection();
-                if(net){
+                if (net) {
 
                     lodingPB.setVisibility(View.VISIBLE);
                     String emails = email.getText().toString();
@@ -122,41 +135,41 @@ public class MainActivity extends AppCompatActivity {
 //                            Log.d("ENimesh", "Email matched = " + dbEmail);
 //                            Log.d("ENimesh", "Email matched = " + dbPassword);
 
-                                if (emails.equals(dbEmail) ) {
-                                    if(passwords.equals(dbPassword)){
-                                        int approvel =Integer.parseInt(String.valueOf(map.get("Approved")));
+                                if (emails.equals(dbEmail)) {
+                                    if (passwords.equals(dbPassword)) {
+                                        int approvel = Integer.parseInt(String.valueOf(map.get("Approved")));
                                         //                                Log.d("ENimesh", "Email matched = " + dbEmail);
                                         if (approvel == 1) {
                                             Toast.makeText(MainActivity.this, "Successfully Login", Toast.LENGTH_SHORT).show();
                                             lodingPB.setVisibility(View.INVISIBLE);
-                                            Intent goToLogin = new Intent(MainActivity.this,advocate.class);
-                                            goToLogin.putExtra("email",dbEmail);
+                                            Intent goToLogin = new Intent(MainActivity.this, advocate.class);
+                                            goToLogin.putExtra("email", dbEmail);
                                             String licence = String.valueOf(map.get("Licence"));
-                                            goToLogin.putExtra("licence",licence);
+                                            goToLogin.putExtra("licence", licence);
 
-                                            SharedPreferences sp = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+                                            SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
                                             SharedPreferences.Editor editor = sp.edit();
-                                            editor.putString("Login","true");
-                                            editor.putString("UserName",dbEmail);
-                                            editor.putString("Licence",licence);
+                                            editor.putString("Login", "true");
+                                            editor.putString("UserName", dbEmail);
+                                            editor.putString("Licence", licence);
                                             editor.apply();
 
                                             startActivity(goToLogin);
                                             finish();
 
-                                        } else if(approvel == 0) {
+                                        } else if (approvel == 0) {
                                             lodingPB.setVisibility(View.INVISIBLE);
                                             createNotificationNotApproved();
-                                        }else{
+                                        } else {
                                             lodingPB.setVisibility(View.INVISIBLE);
                                             createNotificationNotRejected();
                                         }
-                                    }else{
+                                    } else {
                                         lodingPB.setVisibility(View.INVISIBLE);
                                         password.setError("Wrong Password");
                                         Toast.makeText(MainActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();
                                     }
-                                }else{
+                                } else {
                                     lodingPB.setVisibility(View.INVISIBLE);
                                 }
                             }
@@ -170,41 +183,41 @@ public class MainActivity extends AppCompatActivity {
 //                            Log.d("ENimesh", "Email matched = " + dbEmail);
 //                            Log.d("ENimesh", "Email matched = " + dbPassword);
 
-                                if (emails.equals(dbEmail) ) {
-                                    if(passwords.equals(dbPassword)){
-                                        int approvel =Integer.parseInt(String.valueOf(map.get("Approved")));
+                                if (emails.equals(dbEmail)) {
+                                    if (passwords.equals(dbPassword)) {
+                                        int approvel = Integer.parseInt(String.valueOf(map.get("Approved")));
                                         //                                Log.d("ENimesh", "Email matched = " + dbEmail);
                                         if (approvel == 1) {
                                             Toast.makeText(MainActivity.this, "Successfully Login", Toast.LENGTH_SHORT).show();
                                             lodingPB.setVisibility(View.INVISIBLE);
-                                            Intent goToLogin = new Intent(MainActivity.this,advocate.class);
-                                            goToLogin.putExtra("email",dbEmail);
+                                            Intent goToLogin = new Intent(MainActivity.this, advocate.class);
+                                            goToLogin.putExtra("email", dbEmail);
                                             String licence = String.valueOf(map.get("Licence"));
-                                            goToLogin.putExtra("licence",licence);
+                                            goToLogin.putExtra("licence", licence);
 
-                                            SharedPreferences sp = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+                                            SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
                                             SharedPreferences.Editor editor = sp.edit();
-                                            editor.putString("Login","true");
-                                            editor.putString("UserName",dbEmail);
-                                            editor.putString("Licence",licence);
+                                            editor.putString("Login", "true");
+                                            editor.putString("UserName", dbEmail);
+                                            editor.putString("Licence", licence);
                                             editor.apply();
 
                                             startActivity(goToLogin);
                                             finish();
 
-                                        } else if(approvel == 0) {
+                                        } else if (approvel == 0) {
                                             lodingPB.setVisibility(View.INVISIBLE);
                                             createNotificationNotApproved();
-                                        }else{
+                                        } else {
                                             lodingPB.setVisibility(View.INVISIBLE);
                                             createNotificationNotRejected();
                                         }
-                                    }else{
+                                    } else {
                                         lodingPB.setVisibility(View.INVISIBLE);
 
                                         Toast.makeText(MainActivity.this, "Wrong Password", Toast.LENGTH_SHORT).show();
                                     }
-                                }else{
+                                } else {
                                     lodingPB.setVisibility(View.INVISIBLE);
                                 }
                             }
@@ -225,32 +238,30 @@ public class MainActivity extends AppCompatActivity {
 //                            Toast.makeText(MainActivity.this, "Failed", Toast.LENGTH_SHORT).show();
                             }
                         });
-                    }else{
+                    } else {
                         lodingPB.setVisibility(View.INVISIBLE);
-                        if(emails.length() == 0 && passwords.length()==0){
+                        if (emails.length() == 0 && passwords.length() == 0) {
                             email.setError("Please Enter Email");
                             password.setError("Please Enter password");
                             Toast.makeText(MainActivity.this, "Please Enter E-Mail and password", Toast.LENGTH_SHORT).show();
 
-                        }
-                        else if(emails.length() == 0){
+                        } else if (emails.length() == 0) {
                             email.setError("Please Enter Email");
                             Toast.makeText(MainActivity.this, "Please Enter E-Mail", Toast.LENGTH_SHORT).show();
-                        }
-                        else if(passwords.length() == 0){
+                        } else if (passwords.length() == 0) {
                             password.setError("Please Enter Password");
                             Toast.makeText(MainActivity.this, "Please Enter Password", Toast.LENGTH_SHORT).show();
-                        }else if(!ev){
+                        } else if (!ev) {
                             email.setError("Please Enter valid Email");
                             Toast.makeText(MainActivity.this, "Invalid Email", Toast.LENGTH_SHORT).show();
-                        }else if(!pv){
+                        } else if (!pv) {
                             email.setError("Please Enter valid Password");
                             Toast.makeText(MainActivity.this, "Invalid Password", Toast.LENGTH_SHORT).show();
-                        }else{
+                        } else {
                             Toast.makeText(MainActivity.this, "ERROR", Toast.LENGTH_SHORT).show();
                         }
                     }
-                }else{
+                } else {
                     lodingPB.setVisibility(View.INVISIBLE);
                     Toast.makeText(MainActivity.this, "No Internet", Toast.LENGTH_SHORT).show();
                 }
@@ -259,14 +270,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void alreadyLogin() {
-        SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+        SharedPreferences sharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
         String checkLogin = sharedPreferences.getString("Login", "");
-        String username = sharedPreferences.getString("UserName","");
-        String Licence = sharedPreferences.getString("Licence","");
-        if(Objects.equals(checkLogin, "true")) {
-            Intent goToLogin = new Intent(MainActivity.this,advocate.class);
-            goToLogin.putExtra("email",username);
-            goToLogin.putExtra("licence",Licence);
+        String username = sharedPreferences.getString("UserName", "");
+        String Licence = sharedPreferences.getString("Licence", "");
+        if (Objects.equals(checkLogin, "true")) {
+            Intent goToLogin = new Intent(MainActivity.this, advocate.class);
+            goToLogin.putExtra("email", username);
+            goToLogin.putExtra("licence", Licence);
             startActivity(goToLogin);
             finish();
         }
@@ -292,6 +303,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     }
+
     //    Creating Notification
     private void createNotificationChannel() {
         String CHANNEL_ID = "com.nimeshkadecha.e_pokerWeb";
@@ -327,6 +339,16 @@ public class MainActivity extends AppCompatActivity {
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
 
 // notificationId is a unique int for each notification that you must define
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         notificationManager.notify(id, builder.build());
     }
 
@@ -346,6 +368,16 @@ public class MainActivity extends AppCompatActivity {
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
 
 // notificationId is a unique int for each notification that you must define
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         notificationManager.notify(id, builder.build());
     }
 }
