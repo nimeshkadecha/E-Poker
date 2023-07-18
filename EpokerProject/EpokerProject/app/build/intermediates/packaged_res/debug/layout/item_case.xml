@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txCaseNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CASE #123"
+                android:textSize="20sp"
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txCaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11/10/2022"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:paddingBottom="3dp"
+                android:textSize="14sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txAdvocateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:paddingBottom="3dp"
+                android:textSize="18sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/txCaseDiscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="demo case description"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:paddingBottom="3dp"
+                android:textSize="15sp"
+                android:textColor="#404040" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Notify"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

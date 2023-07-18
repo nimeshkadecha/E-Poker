@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">87178646522-ifsbc6blp3mm5tnvci9nijhccjv2luke.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">87178646522</string>
+    <string name="google_api_key" translatable="false">AIzaSyDMsbz4YA0kpOg0lsyuoxXbnIv3LNsg9Bk</string>
+    <string name="google_app_id" translatable="false">1:87178646522:android:7146318d2063d325d30a43</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMsbz4YA0kpOg0lsyuoxXbnIv3LNsg9Bk</string>
+    <string name="google_storage_bucket" translatable="false">e-poker.appspot.com</string>
+    <string name="project_id" translatable="false">e-poker</string>
+</resources>

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_item_case.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/item_case.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.epokerproject.app-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable-v24_toolbarlogo.png.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable-v24/toolbarlogo.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_dashboard.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_ic_baseline_supervisor_account_24.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/ic_baseline_supervisor_account_24.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_ic_case_study.png.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/ic_case_study.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_ic_advocate_big.png.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/ic_advocate_big.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/raw_splash.json.flat",
+        "source": "com.example.epokerproject.app-main-38:/raw/splash.json"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_splash.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.epokerproject.app-debug-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_search.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/search.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_sign.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/sign.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_case_list.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_case_list.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_advocate_list.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_advocate_list.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_item_advocate.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/item_advocate.xml"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/drawable_ic_advocate.png.flat",
+        "source": "com.example.epokerproject.app-main-38:/drawable/ic_advocate.png"
+    },
+    {
+        "merged": "com.example.epokerproject.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.epokerproject.app-main-38:/layout/activity_register.xml"
+    }
+]

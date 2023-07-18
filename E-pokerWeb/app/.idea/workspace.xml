@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ddc5d52-2cc1-4333-9ca1-2276f875de61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/assetWizardSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/navEditor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_6/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_7/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_0/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_1/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_2/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_3/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_4/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_5/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_6/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/desugar_graph/debug/out/currentProject/jar_67353a1b3938baaa96333c0ec5a39f61cbd7e2813863a20918ff8db43c81f60f_bucket_7/graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/dex_number_of_buckets_file/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/dex_number_of_buckets_file/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+3Htyz9nTYTg0YX6a3xLwYYFlL8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+Ai0n1UzVmllhErw37YO5QNBsxk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+QRomV+9NktahTk8PdpNnrsVm9A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/1yeP+hWCSChc8AXAUq01XFx66Hg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3l5WcjWc8Vx0Hs9LV1k5va9PlSk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5ucmRSDfFq14BVeTrVnLiVInUj8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6CY_zvSGmIL45llD1SXEpL26xyA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6QnCpJyT2++JUlQ7ZS__xg5vsFg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6ovGyj1huyQ+4EzXo++Mb1kfORg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7Xu2knq5+qzRbiT8Dv69fAwPwjA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9FPFj491h2GimisXGcrLgDxHlok=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9Z4j9QKOf12aCTJyyINEfNUiyk8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Aq4WkB8_5T99cv7RaxWhiIluE1U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B91nlfUWY1vJLfxqKTEfHtkeyBM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BkSpre7U0eyCCGGleJe53s2FTM4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CPMHMxeoyiGUUGg0YFfwRewaQs0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FInT0dD7PneTJKJqogXT5+kbN9g=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/G73nvl8Vvd1S+cwaDbrsBaHm95w=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HZyOzpLfUMJtTlxpaMsWpuGlKFs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HsyDPxL3Eh4kEr7+mmEBsCV+XXY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/INXPuucMPoLfdkzHOS_sidq7kcQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Iu+oOgVe1nl8m9zFngy8POHb0N4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JGbqPlgcM4_QLQkbKummc5muKVM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JLGlo6uAVXo2VIYVI6FfjAicSHo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JcIA5IyxK0TAM2MKbl5+3ikFZPg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/JuzIj_SfNL_zE4k4lElDlAkAHQ0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KISBS+7+5_FDQRKKTPSc+ZpcFNE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KUkuKZHVhLRiCShIWCih4xoUdb4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KhHj3+SpCCNUPPvtfbRbqMRtpe0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LPSDoxQJK3VrZEfTK5LfK6y2KXU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LcExf2E5sdcyeSL2vIWQft0hgC4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LfnN0NRxPGM2fNMXV6ULR_fcZdQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LltFCFMMhYtgqQLstpTt2MNoIGU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MnLD5JCUjvUjDzCGaNrS6IH9Qw8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NeYk11Ry7wcyllAZoJmpMGS4Sjk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Oh8J72UsTssAkYawHuAxM4EF6lI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OnhwZU_Mcd+mtBGwl5VPhDxUvJw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OtPdnClzXqiaSZMwcLKe4f9Ozj4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PHf6NI+i2W9VRAKi25HcW8fLSuc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/R5fR3sxTlBKcytSWJq7yu7PrSqA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/T3sfX8yKYv3qF7VhhobV6yfFqXc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TUiTPv8yFDC0+1+cGUyhJqyUPhA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ViPJOPMzAxnyWhwpQDt2OOQL0Aw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VjyZYyz+EhF+QH0JLKi_haeAYWE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WK_oO6Csn7kQV9GZWCihWPCKQic=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XaphCYfF5YbXC007IOcO_cqOsy4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y19JvIUyRE8vt3rfzv2w9dQVBqs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/arafPTVraLU6yYZcjPvqtYps2Mk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b1DrRj8ccI9A7_18Jaux8WGzeS4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/brCB2xdDItMuXyYUoWhRW+wItQQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cQVRZIkBUU6GmmNNmaMnvxTEnnM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cZXrV4nQHchUp+7zM5p1Nu0P2wk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dPe6PdlYwfYA1N8R7skR1gEZbwA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/dm24fXGmvSAunfO7wU1crOC2leY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/enwMSS4FJqNjrDg5xsnrwKivJfY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eoYlda5P6eYuOmN0HvJ7fz+qcX4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/epDTXHh5EisyRsK7I07Aae8Qk8k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fUkwa0RYPXK++NCNqLXg68U8FVA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gG7Q6HATJKcBm57ZaaH80ZNa9Io=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gT2q+Of8QgjxNmnaVjDZqQv6sN8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gX9DJnxuSikFyzSRbw4tIzXSx88=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jq6PWY_ERPLz7_+PAuBeFKb3WMs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kFREDF1g+_+y4qXnHr8eViJYVgI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kIFi8OWP_w3FF1lTgjNv2CxkBEo=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/lQxgN45jgcAuHZcH_nt9V4RTM3g=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mkKhgVaVaF31JB32Q4g12bQtuWQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pFHV+7guasnA3KiloUoni5pXG1Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pVE2ueqxVGj9_J+sAVbClEbaq+o=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pVxNA95NapMNaq7OpUqCj2mQFqw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qt4IxVMKkPH0Crd9oYnmKFuxpd8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rfFwHIoZIHhVPJClfb_Je_UIra8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/rk2hpJMXZBi9WtW63N9+uGlP2Lc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sEVrQNZqcCVYaUATLhFdrbAQYa0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tFfPO50F_otUM0CEhopLsfjHvTk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tj83nYC7DxZLatX0RmWFZ1KrDiA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tzHGlHv8INBslh5UxADEhww8nWE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uJLlo3H04Ub3yg1mlmjK3VS7y4k=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vtbYmDjo_Nei9OgphBv94S5SDtI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xp9Vmh5stFI+6v3jnnKXLqLjNPI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yKReKgM_swE5kkX+gZPfYT+D8L0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yrTXxQOfjTaEuTDdIDgITL5pAUE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/z0WezbBJoGPoSylJaY3JjcOtxkM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/z6uj7d_CjMBQ6WZITOcLUJpSiFc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_back.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_biller_splash.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_date.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_duplicate.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_drive_file_rename_outline_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_home_work_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_lock_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_password_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_person_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_shopping_bag_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_baseline_storage_24.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_email.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_money.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_numbers.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_ic_phone.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_message.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res/debug/drawable_remove.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+es+419.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h320dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h360dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h480dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h550dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldrtl-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-small-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w1240dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w1240dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w320dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w360dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w480dp-port-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w480dp-port-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-land-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-w600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/biller_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/date.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/duplicate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_drive_file_rename_outline_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_home_work_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_lock_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_password_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_person_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_shopping_bag_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_baseline_storage_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_email.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_money.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_numbers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/ic_phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/message.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/packaged_res/debug/drawable/remove.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/source_set_path_map/debug/file-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/intermediates/source_set_path_map/debug/file-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EPoker/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../EPoker/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/assetWizardSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EpokerProject/EpokerProject/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2JXxm0OuNJpcgMv5MPaVyIJxzaj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ddc5d52-2cc1-4333-9ca1-2276f875de61" name="Changes" comment="" />
+      <created>1672238384107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672238384107</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

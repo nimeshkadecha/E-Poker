@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207678167372",
+    "project_id": "e-pokaar-test",
+    "storage_bucket": "e-pokaar-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207678167372:android:762ffbacf6cdffd07457e9",
+        "android_client_info": {
+          "package_name": "com.nimeshkadecha.e_poker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207678167372-1magaklp16b14brmp8q9sk2gkqqp0cp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7dyTGzK66Gyc3uSDNfFsd7-hIcq6qbZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207678167372-1magaklp16b14brmp8q9sk2gkqqp0cp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

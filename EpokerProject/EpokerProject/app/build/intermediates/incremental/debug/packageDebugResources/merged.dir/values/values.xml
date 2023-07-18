@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#EBF3FF</color>
+    <color name="purple_700">#EBF3FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">E-poker</string>
+    <string name="default_web_client_id" translatable="false">87178646522-ifsbc6blp3mm5tnvci9nijhccjv2luke.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">87178646522</string>
+    <string name="google_api_key" translatable="false">AIzaSyDMsbz4YA0kpOg0lsyuoxXbnIv3LNsg9Bk</string>
+    <string name="google_app_id" translatable="false">1:87178646522:android:7146318d2063d325d30a43</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMsbz4YA0kpOg0lsyuoxXbnIv3LNsg9Bk</string>
+    <string name="google_storage_bucket" translatable="false">e-poker.appspot.com</string>
+    <string name="not_a_register_click_here_for_signup">Not a Register click here for <b><font color="#FF03DAC5">SignUp</font></b></string>
+    <string name="project_id" translatable="false">e-poker</string>
+    <style name="Theme.EpokerProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

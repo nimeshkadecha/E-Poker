@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">E-poker</string>
+    <string name="not_a_register_click_here_for_signup">Not a Register click here for <b><font color="#FF03DAC5">SignUp</font></b></string>
+</resources>
